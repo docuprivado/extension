@@ -28,7 +28,11 @@ const COPIAR = ["nomina-ficticia.pdf", "contrato-ficticio.pdf", "contrato-escane
   "contrato-v1.docx", "contrato-v2.docx", "texto-anonimizar.txt", "dni-facil-anverso.jpg", "dni-facil-reverso.jpg", "foto.heic", "formulario-ficticio.pdf",
   "fotos/foto-gps.jpg", "fotos/metadatos/webp-datos.webp", "fotos/metadatos/foto-en-movimiento.jpg", "fotos/metadatos/no-es-una-foto.jpg", "pasaporte-prueba.jpg", "bordes/dos-caras-05.jpg"];
 
-const base = fs.mkdtempSync(path.join(os.tmpdir(), "docuprivado-sinred-"));
+// La carpeta temporal, por su nombre real, como trabaja la extensión: en macOS está detrás de
+
+// un enlace (/var → /private/var) y en Windows puede venir con nombres cortos (RUNNER~1).
+
+const base = fs.realpathSync.native(fs.mkdtempSync(path.join(os.tmpdir(), "docuprivado-sinred-")));
 const docs = path.join(base, "Documentos de prueba");
 const fuera = path.join(base, "fuera");
 fs.mkdirSync(path.join(docs, "Subcarpeta"), { recursive: true });

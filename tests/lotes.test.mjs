@@ -12,7 +12,11 @@ import { prepararCarpetas } from "../server/core/rutas.js";
 import { copiaVigente, expandir } from "../server/core/lotes.js";
 import { claveDe, ejecutarLote } from "../server/core/ejecutar-lote.js";
 
-const base = fs.mkdtempSync(path.join(os.tmpdir(), "docuprivado-lotes-"));
+// La carpeta temporal, por su nombre real, como trabaja la extensión: en macOS está detrás de
+
+// un enlace (/var → /private/var) y en Windows puede venir con nombres cortos (RUNNER~1).
+
+const base = fs.realpathSync.native(fs.mkdtempSync(path.join(os.tmpdir(), "docuprivado-lotes-")));
 after(() => fs.rmSync(base, { recursive: true, force: true }));
 const docs = path.join(base, "Documentos");
 const crear = (rel) => { const r = path.join(docs, rel); fs.mkdirSync(path.dirname(r), { recursive: true }); fs.writeFileSync(r, "x"); };

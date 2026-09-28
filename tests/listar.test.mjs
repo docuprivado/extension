@@ -11,7 +11,9 @@ import { prepararCarpetas } from "../server/core/rutas.js";
 import { listarDocumentos, leerFecha, definir } from "../server/tools/listar.js";
 
 const WIN = process.platform === "win32";
-const base = fs.mkdtempSync(path.join(os.tmpdir(), "docuprivado-listar-"));
+// La carpeta temporal, por su nombre real, como trabaja la extensión: en macOS está detrás de
+// un enlace (/var → /private/var) y en Windows puede venir con nombres cortos (RUNNER~1).
+const base = fs.realpathSync.native(fs.mkdtempSync(path.join(os.tmpdir(), "docuprivado-listar-")));
 after(() => fs.rmSync(base, { recursive: true, force: true }));
 
 const docs = path.join(base, "Documentos");

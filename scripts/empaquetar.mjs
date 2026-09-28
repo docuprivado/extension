@@ -145,7 +145,9 @@ fs.rmSync(salida, { force: true });
 ejecutar([MCPB, "pack", PAQUETE, salida]);
 
 paso("6. Arrancar desde el paquete, como Claude Desktop");
-const prueba = fs.mkdtempSync(path.join(os.tmpdir(), "docuprivado-paquete-"));
+// La carpeta temporal, por su nombre real, como trabaja la extensión: en macOS está detrás de
+// un enlace (/var → /private/var) y en Windows puede venir con nombres cortos (RUNNER~1).
+const prueba = fs.realpathSync.native(fs.mkdtempSync(path.join(os.tmpdir(), "docuprivado-paquete-")));
 try {
   ejecutar([MCPB, "unpack", salida, prueba], { stdio: "pipe" });
   const desempaquetados = listarArchivos(prueba).length;

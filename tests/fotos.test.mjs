@@ -28,7 +28,9 @@ const WEB = path.resolve(process.env.DOCUPRIVADO_WEB || path.join(RAIZ, "..", "W
 const FOTOS = path.join(WEB, "tests", "fixtures", "fotos");
 const META = path.join(FOTOS, "metadatos");
 const hayWeb = fs.existsSync(path.join(META, "casos.json"));
-const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "docuprivado-fotos-"));
+// La carpeta temporal, por su nombre real, como trabaja la extensión: en macOS está detrás de
+// un enlace (/var → /private/var) y en Windows puede venir con nombres cortos (RUNNER~1).
+const tmp = fs.realpathSync.native(fs.mkdtempSync(path.join(os.tmpdir(), "docuprivado-fotos-")));
 after(() => fs.rmSync(tmp, { recursive: true, force: true }));
 after(() => cerrarLector());
 const ctx = prepararCarpetas([tmp]);

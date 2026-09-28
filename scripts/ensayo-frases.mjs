@@ -28,7 +28,11 @@ const PARIDAD = JSON.parse(fs.readFileSync(path.join(RAIZ, "tests", "paridad", "
 const DATOS_NOMINA = PARIDAD.archivos["nomina-ficticia.pdf"].marcas.map((m) => m.valor)
   .filter((v) => v.length >= 6 && !/^[\d.,]+$/.test(v) && !/EMPRESA|Avenida|B0000/.test(v));
 
-const base = fs.mkdtempSync(path.join(os.tmpdir(), "docuprivado-ensayo-"));
+// La carpeta temporal, por su nombre real, como trabaja la extensión: en macOS está detrás de
+
+// un enlace (/var → /private/var) y en Windows puede venir con nombres cortos (RUNNER~1).
+
+const base = fs.realpathSync.native(fs.mkdtempSync(path.join(os.tmpdir(), "docuprivado-ensayo-")));
 const C = path.join(base, "carpeta-de-prueba");
 execFileSync(process.execPath, [path.join(RAIZ, "scripts", "preparar-carpeta-prueba.mjs")], { env: { ...process.env, DOCUPRIVADO_CARPETA_PRUEBA: C }, stdio: "pipe" });
 

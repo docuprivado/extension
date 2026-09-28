@@ -17,7 +17,9 @@ const RAIZ = fileURLToPath(new URL("..", import.meta.url));
 const LANZADOR = path.join(RAIZ, "node_modules", "@modelcontextprotocol", "inspector", "clients", "launcher", "build", "index.js");
 const WEB = path.resolve(process.env.DOCUPRIVADO_WEB || path.join(RAIZ, "..", "WEB A"));
 const FIXTURES = path.join(WEB, "tests", "fixtures");
-const CARPETA = fs.mkdtempSync(path.join(os.tmpdir(), "docuprivado-inspector-"));
+// La carpeta temporal, por su nombre real, como trabaja la extensión: en macOS está detrás de
+// un enlace (/var → /private/var) y en Windows puede venir con nombres cortos (RUNNER~1).
+const CARPETA = fs.realpathSync.native(fs.mkdtempSync(path.join(os.tmpdir(), "docuprivado-inspector-")));
 for (const f of ["nomina-ficticia.pdf", "contrato-ficticio.pdf", "contrato-v1.pdf", "contrato-escaneado.pdf", "captura-ficticia.png", "fotos/foto-gps.jpg", "fotos/metadatos/iphone-gps.heic",
   "texto-anonimizar.txt", "contrato-v1.docx", "contrato-v2.docx", "dni-facil-anverso.jpg", "dni-facil-reverso.jpg"]) {
   fs.copyFileSync(path.join(FIXTURES, f), path.join(CARPETA, path.basename(f)));

@@ -32,7 +32,9 @@ const RAIZ = fileURLToPath(new URL("..", import.meta.url));
 const WEB = path.resolve(process.env.DOCUPRIVADO_WEB || path.join(RAIZ, "..", "WEB A"));
 const F = path.join(WEB, "tests", "fixtures");
 const hayWeb = fs.existsSync(path.join(F, "texto-anonimizar.txt"));
-const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "docuprivado-anonimizar-"));
+// La carpeta temporal, por su nombre real, como trabaja la extensión: en macOS está detrás de
+// un enlace (/var → /private/var) y en Windows puede venir con nombres cortos (RUNNER~1).
+const tmp = fs.realpathSync.native(fs.mkdtempSync(path.join(os.tmpdir(), "docuprivado-anonimizar-")));
 after(() => fs.rmSync(tmp, { recursive: true, force: true }));
 const ctx = prepararCarpetas([tmp]);
 const R = reglasAnonimizador();

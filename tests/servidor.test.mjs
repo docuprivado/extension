@@ -24,7 +24,11 @@ const hayWeb = fs.existsSync(NOMINA);
 const PARIDAD = JSON.parse(fs.readFileSync(new URL("paridad/web-tachador.json", import.meta.url), "utf8"));
 const VALORES = PARIDAD.archivos["nomina-ficticia.pdf"].marcas.map((m) => m.valor).filter((v) => v.length >= 6);
 
-const base = fs.mkdtempSync(path.join(os.tmpdir(), "docuprivado-servidor-"));
+// La carpeta temporal, por su nombre real, como trabaja la extensión: en macOS está detrás de
+
+// un enlace (/var → /private/var) y en Windows puede venir con nombres cortos (RUNNER~1).
+
+const base = fs.realpathSync.native(fs.mkdtempSync(path.join(os.tmpdir(), "docuprivado-servidor-")));
 const docs = path.join(base, "Carpeta Secreta Ñandú");
 const original = path.join(docs, "Alquiler", "nomina-confidencial-perez.pdf");
 fs.mkdirSync(path.join(docs, "Alquiler"), { recursive: true });

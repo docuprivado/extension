@@ -13,7 +13,9 @@ import { arrancar } from "./cliente-mcp.mjs";
 
 const RAIZ = fileURLToPath(new URL("..", import.meta.url));
 const NOMINA = path.join(path.resolve(process.env.DOCUPRIVADO_WEB || path.join(RAIZ, "..", "WEB A")), "tests", "fixtures", "nomina-ficticia.pdf");
-const base = fs.mkdtempSync(path.join(os.tmpdir(), "docuprivado-continua-"));
+// La carpeta temporal, por su nombre real, como trabaja la extensión: en macOS está detrás de
+// un enlace (/var → /private/var) y en Windows puede venir con nombres cortos (RUNNER~1).
+const base = fs.realpathSync.native(fs.mkdtempSync(path.join(os.tmpdir(), "docuprivado-continua-")));
 after(() => fs.rmSync(base, { recursive: true, force: true }));
 
 test("lote que no cabe en una llamada: pendientes, «continúa» y ninguna copia repetida", { skip: !fs.existsSync(NOMINA) && "sin la nómina de prueba" }, async () => {

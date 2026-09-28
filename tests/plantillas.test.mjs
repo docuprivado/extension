@@ -13,7 +13,9 @@ import { arrancar } from "./cliente-mcp.mjs";
 import { PLANTILLAS, paraManifiesto, rellenar } from "../server/core/plantillas.js";
 
 const manifiesto = JSON.parse(fs.readFileSync(new URL("../manifest.json", import.meta.url), "utf8"));
-const base = fs.mkdtempSync(path.join(os.tmpdir(), "docuprivado-plantillas-"));
+// La carpeta temporal, por su nombre real, como trabaja la extensión: en macOS está detrás de
+// un enlace (/var → /private/var) y en Windows puede venir con nombres cortos (RUNNER~1).
+const base = fs.realpathSync.native(fs.mkdtempSync(path.join(os.tmpdir(), "docuprivado-plantillas-")));
 
 let s;
 before(async () => {

@@ -235,7 +235,9 @@ test("cargar OpenCV no deja enganches al proceso ni variables globales", async (
 });
 
 // ---------------------------------------------------------------- la herramienta
-const base = fs.mkdtempSync(path.join(os.tmpdir(), "docuprivado-dni-"));
+// La carpeta temporal, por su nombre real, como trabaja la extensión: en macOS está detrás de
+// un enlace (/var → /private/var) y en Windows puede venir con nombres cortos (RUNNER~1).
+const base = fs.realpathSync.native(fs.mkdtempSync(path.join(os.tmpdir(), "docuprivado-dni-")));
 const docs = path.join(base, "Mis Documentos Ñ");
 const fuera = path.join(base, "fuera");
 fs.mkdirSync(path.join(docs, "DNI"), { recursive: true });

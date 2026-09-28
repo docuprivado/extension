@@ -20,7 +20,11 @@ const RAIZ = fileURLToPath(new URL("..", import.meta.url));
 const WEB = path.resolve(process.env.DOCUPRIVADO_WEB || path.join(RAIZ, "..", "WEB A"));
 const CAPTURA = path.join(WEB, "tests", "fixtures", "captura-ficticia.png");
 
-const base = fs.mkdtempSync(path.join(os.tmpdir(), "docuprivado-rev17-"));
+// La carpeta temporal, por su nombre real, como trabaja la extensión: en macOS está detrás de
+
+// un enlace (/var → /private/var) y en Windows puede venir con nombres cortos (RUNNER~1).
+
+const base = fs.realpathSync.native(fs.mkdtempSync(path.join(os.tmpdir(), "docuprivado-rev17-")));
 const docs = path.join(base, "Pruebas");
 fs.mkdirSync(path.join(docs, "Nominas"), { recursive: true });
 let s;
