@@ -44,8 +44,16 @@ jobs:
       - name: Quitar la parte opcional de pdf.js
         run: rm -rf node_modules/@napi-rs/canvas*
 
+      # La salida también se guarda en un archivo para el paso siguiente (con «pipefail», que
+      # GitHub pone en bash, el paso falla si falla alguna prueba).
       - name: Pruebas automáticas
-        run: node --test "tests/**/*.test.mjs"
+        run: node --test "tests/**/*.test.mjs" 2>&1 | tee pruebas.log
+
+      # Si fallan, el motivo de cada una como aviso de la ejecución: el registro completo solo
+      # se ve con la sesión iniciada en GitHub; los avisos, sin ella.
+      - name: Motivo de las pruebas que fallan
+        if: failure()
+        run: node scripts/avisos-de-fallos.mjs pruebas.log
 
       - name: Prueba sin red
         run: node scripts/comprobar-sin-red.mjs
