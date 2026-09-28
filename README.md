@@ -14,7 +14,7 @@ La extensión trabaja en tu ordenador, con los mismos motores que las herramient
 
 ## Requisitos
 
-- **Claude Desktop** para Windows o macOS, con la sesión de Claude iniciada. Probada en Windows 11 con Claude Desktop 2.9939.2. En macOS debería funcionar igual (no usa nada propio de Windows), pero todavía no se ha probado en un Mac.
+- **Claude Desktop** para Windows o macOS, con la sesión de Claude iniciada. Probada en Windows 11 con Claude Desktop 2.9939.2. En macOS pasan todas sus pruebas automáticas (en GitHub), pero todavía no se ha probado en Claude Desktop para Mac.
 - La documentación de Anthropic no limita las extensiones a ningún plan de Claude. En las cuentas de empresa (Team o Enterprise), el administrador puede desactivarlas.
 - No hace falta instalar nada más: Claude Desktop ya trae lo necesario para que funcione. Ocupa unos 17 MB al descargarla y unos 40 MB instalada.
 
@@ -78,7 +78,7 @@ Esta política explica qué hace con tus datos la extensión de docuprivado para
 
 ## Créditos y licencias
 
-**La extensión es código abierto, con licencia [Apache 2.0](LICENSE).** Quien la copie o la modifique tiene que conservar el aviso de [NOTICE](NOTICE), con el enlace a docuprivado.es, y no puede usar el nombre «docuprivado».
+**La extensión es código abierto, con licencia [Apache 2.0](LICENSE).** Su código está en [github.com/docuprivado/extension](https://github.com/docuprivado/extension). Quien la copie o la modifique tiene que conservar el aviso de [NOTICE](NOTICE), con el enlace a docuprivado.es, y no puede usar el nombre «docuprivado».
 
 La extensión usa estos componentes de código abierto. Sus licencias van dentro del paquete, junto a cada uno.
 
@@ -106,4 +106,4 @@ docuprivado no está afiliado a Anthropic ni cuenta con su respaldo. Claude es u
 
 **Privacy:** everything runs on your computer. The extension makes no network connections, only accesses the folders you choose, never modifies or deletes your files (it always writes new copies), and keeps no logs with content. By default Claude only receives summaries and file names, not document content. What you type in the chat is handled by Claude under [Anthropic's privacy policy](https://www.anthropic.com/legal/privacy). Contact: [contacto@docuprivado.es](mailto:contacto@docuprivado.es).
 
-**License:** [Apache 2.0](LICENSE); keep the [NOTICE](NOTICE) file. The license grants no permission to use the name "docuprivado".
+**Source code:** [github.com/docuprivado/extension](https://github.com/docuprivado/extension). **License:** [Apache 2.0](LICENSE); keep the [NOTICE](NOTICE) file. The license grants no permission to use the name "docuprivado".
