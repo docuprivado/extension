@@ -1,0 +1,486 @@
+{
+ "aviso": "Generado con scripts/paridad_web.py a partir del comparador de la web. No editar a mano.",
+ "fecha": "2026-09-28",
+ "webCommit": "6bcc917",
+ "pagina": "/comparar-documentos/",
+ "huellas": {
+  "contrato-v1.docx": "fb594554d9c4cf5d75a3cd2789d464976042193ee39ffc1a62fa470b997c691a",
+  "contrato-v2.docx": "a65e2d4c9418caa37ca21ce5b1fbfe1b2963857f3726f66a5069816f66423f66",
+  "contrato-v1.pdf": "0b29f7048ec2228b7722311e5bb469dcba172d38281858fde63666fcd745da9e",
+  "contrato-v2.pdf": "e58ee6a8b31d91f52dba48e087bc842d0f432947ecc59c63755eeb1643d9f324",
+  "contrato-cabeceras-v1.pdf": "ce91d9eeee0e84749e284fe6d949a7e5c2cf02390ee41f6bb23f1847834a32f0",
+  "contrato-cabeceras-v2.pdf": "0926ef5885d500c8fe0edc39535c69a0eaffd39049bd4866b9cada3df0a16052"
+ },
+ "pares": {
+  "contrato-v1.docx → contrato-v2.docx": {
+   "a": [
+    "CONTRATO DE ARRENDAMIENTO DE VIVIENDA",
+    "En Madrid, a 1 de septiembre de 2026.",
+    "REUNIDOS",
+    "De una parte, D. Juan Pérez García, mayor de edad, con DNI 12345678Z y domicilio en Calle del Ejemplo 12, 3.º B, 28013 Madrid, en adelante, el ARRENDADOR.",
+    "De otra parte, Dña. María López Sánchez, mayor de edad, con NIE X1234567L, teléfono 612 345 678 y correo electrónico maria.lopez@example.com, en adelante, la ARRENDATARIA.",
+    "Ambas partes se reconocen capacidad legal suficiente para otorgar el presente contrato y, a tal efecto,",
+    "EXPONEN",
+    "I. Que el ARRENDADOR es propietario de la vivienda situada en Avenida de la Prueba 45, 2.º A, 28080 Madrid, que se encuentra en buen estado de conservación.",
+    "II. Que la ARRENDATARIA está interesada en arrendar la vivienda para destinarla a su residencia habitual, por lo que ambas partes acuerdan las siguientes",
+    "CLÁUSULAS",
+    "PRIMERA. Objeto. El ARRENDADOR arrienda a la ARRENDATARIA, que acepta, la vivienda descrita en el expositivo I, para uso exclusivo de vivienda habitual de la ARRENDATARIA y de su familia. Queda prohibido el subarriendo total o parcial sin consentimiento escrito del ARRENDADOR.",
+    "SEGUNDA. Duración. El contrato tendrá una duración de un año a contar desde el 1 de octubre de 2026, prorrogable por plazos anuales en los términos que establezca la legislación vigente.",
+    "TERCERA. Renta. La renta mensual será de 850 euros, que la ARRENDATARIA abonará dentro de los cinco primeros días de cada mes mediante transferencia a la cuenta con IBAN ES91 2100 0418 4502 0005 1332, titularidad del ARRENDADOR.",
+    "La renta se actualizará anualmente conforme al índice que las partes acuerden, sin que la actualización pueda superar el límite legal vigente en cada momento.",
+    "CUARTA. Fianza. A la firma del presente contrato, la ARRENDATARIA entrega al ARRENDADOR una cantidad equivalente a una mensualidad de renta en concepto de fianza, que se devolverá al finalizar el contrato una vez comprobado el estado de la vivienda.",
+    "QUINTA. Gastos. Serán por cuenta de la ARRENDATARIA los gastos de suministros de agua, luz, gas y teléfono, que se contratarán a su nombre.",
+    "Los gastos de comunidad y el Impuesto sobre Bienes Inmuebles (IBI) serán por cuenta del ARRENDADOR.",
+    "La ARRENDATARIA se hará cargo de las pequeñas reparaciones derivadas del desgaste por el uso ordinario de la vivienda.",
+    "SEXTA. Desistimiento. La ARRENDATARIA podrá desistir del contrato una vez transcurridos seis meses, siempre que lo comunique al ARRENDADOR con una antelación mínima de 30 días.",
+    "SÉPTIMA. Obras. La ARRENDATARIA no podrá realizar obras que modifiquen la configuración de la vivienda sin el consentimiento previo y por escrito del ARRENDADOR. Las obras de mejora que este autorice quedarán en beneficio de la vivienda sin derecho a indemnización.",
+    "OCTAVA. Notificaciones. Las partes designan como domicilios a efectos de notificaciones los indicados en el encabezamiento de este contrato. Cualquier cambio deberá comunicarse por escrito.",
+    "NOVENA. Legislación aplicable. En lo no previsto en este contrato, las partes se someten a la legislación vigente en materia de arrendamientos urbanos y a los juzgados y tribunales de Madrid.",
+    "Y en prueba de conformidad, ambas partes firman el presente contrato por duplicado en el lugar y la fecha indicados.",
+    "EL ARRENDADOR: Fdo.: Juan Pérez García LA ARRENDATARIA: Fdo.: María López Sánchez",
+    "Documento ficticio generado para pruebas de docuprivado.es. Ningún dato corresponde a una persona real."
+   ],
+   "b": [
+    "CONTRATO DE ARRENDAMIENTO DE VIVIENDA",
+    "En Madrid, a 1 de septiembre de 2026.",
+    "REUNIDOS",
+    "De una parte, D. Juan Pérez García, mayor de edad, con DNI 12345678Z y domicilio en Calle del Ejemplo 12, 3.º B, 28013 Madrid, en adelante, el ARRENDADOR.",
+    "De otra parte, Dña. María López Sánchez, mayor de edad, con NIE X1234567L, teléfono 612 345 678 y correo electrónico maria.lopez@example.com, en adelante, la ARRENDATARIA.",
+    "Ambas partes se reconocen capacidad legal suficiente para otorgar el presente contrato y, a tal efecto,",
+    "EXPONEN",
+    "I. Que el ARRENDADOR es propietario de la vivienda situada en Avenida de la Prueba 45, 2.º A, 28080 Madrid, que se encuentra en buen estado de conservación.",
+    "II. Que la ARRENDATARIA está interesada en arrendar la vivienda para destinarla a su residencia habitual, por lo que ambas partes acuerdan las siguientes",
+    "CLÁUSULAS",
+    "PRIMERA. Objeto. El ARRENDADOR arrienda a la ARRENDATARIA, que acepta, la vivienda descrita en el expositivo I, para uso exclusivo de vivienda habitual de la ARRENDATARIA y de su familia. Queda prohibido el subarriendo total o parcial sin consentimiento escrito del ARRENDADOR.",
+    "SEGUNDA. Duración. El contrato tendrá una duración de un año a contar desde el 1 de octubre de 2026, prorrogable por plazos anuales en los términos que establezca la legislación vigente.",
+    "TERCERA. Renta. La renta mensual será de 950 euros, que la ARRENDATARIA abonará dentro de los cinco primeros días de cada mes mediante transferencia a la cuenta con IBAN ES91 2100 0418 4502 0005 1332, titularidad del ARRENDADOR.",
+    "La renta se actualizará anualmente conforme al índice que las partes acuerden, sin que la actualización pueda superar el límite legal vigente en cada momento.",
+    "CUARTA. Fianza. A la firma del presente contrato, la ARRENDATARIA entrega al ARRENDADOR una cantidad equivalente a una mensualidad de renta en concepto de fianza, que se devolverá al finalizar el contrato una vez comprobado el estado de la vivienda.",
+    "QUINTA. Gastos. Serán por cuenta de la ARRENDATARIA los gastos de suministros de agua, luz, gas y teléfono, que se contratarán a su nombre.",
+    "Los gastos de comunidad y el Impuesto sobre Bienes Inmuebles (IBI) serán por cuenta del ARRENDADOR.",
+    "SEXTA. Desistimiento. La ARRENDATARIA podrá desistir del contrato una vez transcurridos seis meses, siempre que lo comunique al ARRENDADOR con una antelación mínima de 15 días.",
+    "SÉPTIMA. Penalización. Si la ARRENDATARIA desiste del contrato antes de que se cumpla el primer año, deberá abonar al ARRENDADOR, en concepto de penalización, una cantidad equivalente a una mensualidad de renta, prorrateándose los períodos inferiores.",
+    "OCTAVA. Obras. La ARRENDATARIA no podrá realizar obras que modifiquen la configuración de la vivienda sin el consentimiento previo y por escrito del ARRENDADOR. Las obras de mejora que este autorice quedarán en beneficio de la vivienda sin derecho a indemnización.",
+    "NOVENA. Notificaciones. Las partes designan como domicilios a efectos de notificaciones los indicados en el encabezamiento de este contrato. Cualquier cambio deberá comunicarse por escrito.",
+    "DÉCIMA. Legislación aplicable. En lo no previsto en este contrato, las partes se someten a la legislación vigente en materia de arrendamientos urbanos y a los juzgados y tribunales de Madrid.",
+    "Y en prueba de conformidad, ambas partes firman el presente contrato por duplicado en el lugar y la fecha indicados.",
+    "EL ARRENDADOR: Fdo.: Juan Pérez García LA ARRENDATARIA: Fdo.: María López Sánchez",
+    "Documento ficticio generado para pruebas de docuprivado.es. Ningún dato corresponde a una persona real."
+   ],
+   "resumen": {
+    "total": 4,
+    "anadidos": 1,
+    "eliminados": 1,
+    "modificados": 2,
+    "movidos": 0,
+    "importantes": 3,
+    "lectura": 0
+   },
+   "cambios": [
+    {
+     "tipo": "modificado",
+     "donde": "TERCERA. Renta",
+     "importantes": [
+      {
+       "etiqueta": "importe",
+       "antes": "850 euros",
+       "despues": "950 euros"
+      }
+     ]
+    },
+    {
+     "tipo": "eliminado",
+     "donde": "QUINTA. Gastos (párrafo 3)",
+     "importantes": []
+    },
+    {
+     "tipo": "modificado",
+     "donde": "SEXTA. Desistimiento",
+     "importantes": [
+      {
+       "etiqueta": "plazo",
+       "antes": "30 días",
+       "despues": "15 días"
+      }
+     ]
+    },
+    {
+     "tipo": "anadido",
+     "donde": "SÉPTIMA. Penalización",
+     "importantes": [
+      {
+       "etiqueta": "clausula",
+       "antes": "",
+       "despues": "SÉPTIMA. Penalización"
+      },
+      {
+       "etiqueta": "sensible",
+       "antes": "",
+       "despues": "penalización"
+      }
+     ]
+    }
+   ]
+  },
+  "contrato-v1.pdf → contrato-v2.pdf": {
+   "a": [
+    "CONTRATO DE ARRENDAMIENTO DE VIVIENDA",
+    "En Madrid, a 1 de septiembre de 2026.",
+    "REUNIDOS",
+    "De una parte, D. Juan Pérez García, mayor de edad, con DNI 12345678Z y domicilio en Calle del Ejemplo 12, 3.º B, 28013 Madrid, en adelante, el ARRENDADOR.",
+    "De otra parte, Dña. María López Sánchez, mayor de edad, con NIE X1234567L, teléfono 612 345 678 y correo electrónico maria.lopez@example.com, en adelante, la ARRENDATARIA.",
+    "Ambas partes se reconocen capacidad legal suficiente para otorgar el presente contrato y, a tal efecto,",
+    "EXPONEN",
+    "I. Que el ARRENDADOR es propietario de la vivienda situada en Avenida de la Prueba 45, 2.º A, 28080 Madrid, que se encuentra en buen estado de conservación.",
+    "II. Que la ARRENDATARIA está interesada en arrendar la vivienda para destinarla a su residencia habitual, por lo que ambas partes acuerdan las siguientes",
+    "CLÁUSULAS",
+    "PRIMERA. Objeto. El ARRENDADOR arrienda a la ARRENDATARIA, que acepta, la vivienda descrita en el expositivo I, para uso exclusivo de vivienda habitual de la ARRENDATARIA y de su familia. Queda prohibido el subarriendo total o parcial sin consentimiento escrito del ARRENDADOR.",
+    "SEGUNDA. Duración. El contrato tendrá una duración de un año a contar desde el 1 de octubre de 2026, prorrogable por plazos anuales en los términos que establezca la legislación vigente.",
+    "TERCERA. Renta. La renta mensual será de 850 euros, que la ARRENDATARIA abonará dentro de los cinco primeros días de cada mes mediante transferencia a la cuenta con IBAN ES91 2100 0418 4502 0005 1332, titularidad del ARRENDADOR.",
+    "La renta se actualizará anualmente conforme al índice que las partes acuerden, sin que la actualización pueda superar el límite legal vigente en cada momento.",
+    "CUARTA. Fianza. A la firma del presente contrato, la ARRENDATARIA entrega al ARRENDADOR una cantidad equivalente a una mensualidad de renta en concepto de fianza, que se devolverá al finalizar el contrato una vez comprobado el estado de la vivienda.",
+    "QUINTA. Gastos. Serán por cuenta de la ARRENDATARIA los gastos de suministros de agua, luz, gas y teléfono, que se contratarán a su nombre.",
+    "Los gastos de comunidad y el Impuesto sobre Bienes Inmuebles (IBI) serán por cuenta del ARRENDADOR.",
+    "La ARRENDATARIA se hará cargo de las pequeñas reparaciones derivadas del desgaste por el uso ordinario de la vivienda.",
+    "SEXTA. Desistimiento. La ARRENDATARIA podrá desistir del contrato una vez transcurridos seis meses, siempre que lo comunique al ARRENDADOR con una antelación mínima de 30 días.",
+    "SÉPTIMA. Obras. La ARRENDATARIA no podrá realizar obras que modifiquen la configuración de la vivienda sin el consentimiento previo y por escrito del ARRENDADOR. Las obras de mejora que este autorice quedarán en beneficio de la vivienda sin derecho a indemnización.",
+    "OCTAVA. Notificaciones. Las partes designan como domicilios a efectos de notificaciones los indicados en el encabezamiento de este contrato. Cualquier cambio deberá comunicarse por escrito.",
+    "NOVENA. Legislación aplicable. En lo no previsto en este contrato, las partes se someten a la legislación vigente en materia de arrendamientos urbanos y a los juzgados y tribunales de Madrid.",
+    "Y en prueba de conformidad, ambas partes firman el presente contrato por duplicado en el lugar y la fecha indicados.",
+    "EL ARRENDADOR: Fdo.: Juan Pérez García LA ARRENDATARIA: Fdo.: María López Sánchez",
+    "Documento ficticio generado para pruebas de docuprivado.es. Ningún dato corresponde a una persona real."
+   ],
+   "b": [
+    "CONTRATO DE ARRENDAMIENTO DE VIVIENDA",
+    "En Madrid, a 1 de septiembre de 2026.",
+    "REUNIDOS",
+    "De una parte, D. Juan Pérez García, mayor de edad, con DNI 12345678Z y domicilio en Calle del Ejemplo 12, 3.º B, 28013 Madrid, en adelante, el ARRENDADOR.",
+    "De otra parte, Dña. María López Sánchez, mayor de edad, con NIE X1234567L, teléfono 612 345 678 y correo electrónico maria.lopez@example.com, en adelante, la ARRENDATARIA.",
+    "Ambas partes se reconocen capacidad legal suficiente para otorgar el presente contrato y, a tal efecto,",
+    "EXPONEN",
+    "I. Que el ARRENDADOR es propietario de la vivienda situada en Avenida de la Prueba 45, 2.º A, 28080 Madrid, que se encuentra en buen estado de conservación.",
+    "II. Que la ARRENDATARIA está interesada en arrendar la vivienda para destinarla a su residencia habitual, por lo que ambas partes acuerdan las siguientes",
+    "CLÁUSULAS",
+    "PRIMERA. Objeto. El ARRENDADOR arrienda a la ARRENDATARIA, que acepta, la vivienda descrita en el expositivo I, para uso exclusivo de vivienda habitual de la ARRENDATARIA y de su familia. Queda prohibido el subarriendo total o parcial sin consentimiento escrito del ARRENDADOR.",
+    "SEGUNDA. Duración. El contrato tendrá una duración de un año a contar desde el 1 de octubre de 2026, prorrogable por plazos anuales en los términos que establezca la legislación vigente.",
+    "TERCERA. Renta. La renta mensual será de 950 euros, que la ARRENDATARIA abonará dentro de los cinco primeros días de cada mes mediante transferencia a la cuenta con IBAN ES91 2100 0418 4502 0005 1332, titularidad del ARRENDADOR.",
+    "La renta se actualizará anualmente conforme al índice que las partes acuerden, sin que la actualización pueda superar el límite legal vigente en cada momento.",
+    "CUARTA. Fianza. A la firma del presente contrato, la ARRENDATARIA entrega al ARRENDADOR una cantidad equivalente a una mensualidad de renta en concepto de fianza, que se devolverá al finalizar el contrato una vez comprobado el estado de la vivienda.",
+    "QUINTA. Gastos. Serán por cuenta de la ARRENDATARIA los gastos de suministros de agua, luz, gas y teléfono, que se contratarán a su nombre.",
+    "Los gastos de comunidad y el Impuesto sobre Bienes Inmuebles (IBI) serán por cuenta del ARRENDADOR.",
+    "SEXTA. Desistimiento. La ARRENDATARIA podrá desistir del contrato una vez transcurridos seis meses, siempre que lo comunique al ARRENDADOR con una antelación mínima de 15 días.",
+    "SÉPTIMA. Penalización. Si la ARRENDATARIA desiste del contrato antes de que se cumpla el primer año, deberá abonar al ARRENDADOR, en concepto de penalización, una cantidad equivalente a una mensualidad de renta, prorrateándose los períodos inferiores.",
+    "OCTAVA. Obras. La ARRENDATARIA no podrá realizar obras que modifiquen la configuración de la vivienda sin el consentimiento previo y por escrito del ARRENDADOR. Las obras de mejora que este autorice quedarán en beneficio de la vivienda sin derecho a indemnización.",
+    "NOVENA. Notificaciones. Las partes designan como domicilios a efectos de notificaciones los indicados en el encabezamiento de este contrato. Cualquier cambio deberá comunicarse por escrito.",
+    "DÉCIMA. Legislación aplicable. En lo no previsto en este contrato, las partes se someten a la legislación vigente en materia de arrendamientos urbanos y a los juzgados y tribunales de Madrid.",
+    "Y en prueba de conformidad, ambas partes firman el presente contrato por duplicado en el lugar y la fecha indicados.",
+    "EL ARRENDADOR: Fdo.: Juan Pérez García LA ARRENDATARIA: Fdo.: María López Sánchez",
+    "Documento ficticio generado para pruebas de docuprivado.es. Ningún dato corresponde a una persona real."
+   ],
+   "resumen": {
+    "total": 4,
+    "anadidos": 1,
+    "eliminados": 1,
+    "modificados": 2,
+    "movidos": 0,
+    "importantes": 3,
+    "lectura": 0
+   },
+   "cambios": [
+    {
+     "tipo": "modificado",
+     "donde": "TERCERA. Renta",
+     "importantes": [
+      {
+       "etiqueta": "importe",
+       "antes": "850 euros",
+       "despues": "950 euros"
+      }
+     ]
+    },
+    {
+     "tipo": "eliminado",
+     "donde": "QUINTA. Gastos (párrafo 3)",
+     "importantes": []
+    },
+    {
+     "tipo": "modificado",
+     "donde": "SEXTA. Desistimiento",
+     "importantes": [
+      {
+       "etiqueta": "plazo",
+       "antes": "30 días",
+       "despues": "15 días"
+      }
+     ]
+    },
+    {
+     "tipo": "anadido",
+     "donde": "SÉPTIMA. Penalización",
+     "importantes": [
+      {
+       "etiqueta": "clausula",
+       "antes": "",
+       "despues": "SÉPTIMA. Penalización"
+      },
+      {
+       "etiqueta": "sensible",
+       "antes": "",
+       "despues": "penalización"
+      }
+     ]
+    }
+   ]
+  },
+  "contrato-v1.docx → contrato-v2.pdf": {
+   "a": [
+    "CONTRATO DE ARRENDAMIENTO DE VIVIENDA",
+    "En Madrid, a 1 de septiembre de 2026.",
+    "REUNIDOS",
+    "De una parte, D. Juan Pérez García, mayor de edad, con DNI 12345678Z y domicilio en Calle del Ejemplo 12, 3.º B, 28013 Madrid, en adelante, el ARRENDADOR.",
+    "De otra parte, Dña. María López Sánchez, mayor de edad, con NIE X1234567L, teléfono 612 345 678 y correo electrónico maria.lopez@example.com, en adelante, la ARRENDATARIA.",
+    "Ambas partes se reconocen capacidad legal suficiente para otorgar el presente contrato y, a tal efecto,",
+    "EXPONEN",
+    "I. Que el ARRENDADOR es propietario de la vivienda situada en Avenida de la Prueba 45, 2.º A, 28080 Madrid, que se encuentra en buen estado de conservación.",
+    "II. Que la ARRENDATARIA está interesada en arrendar la vivienda para destinarla a su residencia habitual, por lo que ambas partes acuerdan las siguientes",
+    "CLÁUSULAS",
+    "PRIMERA. Objeto. El ARRENDADOR arrienda a la ARRENDATARIA, que acepta, la vivienda descrita en el expositivo I, para uso exclusivo de vivienda habitual de la ARRENDATARIA y de su familia. Queda prohibido el subarriendo total o parcial sin consentimiento escrito del ARRENDADOR.",
+    "SEGUNDA. Duración. El contrato tendrá una duración de un año a contar desde el 1 de octubre de 2026, prorrogable por plazos anuales en los términos que establezca la legislación vigente.",
+    "TERCERA. Renta. La renta mensual será de 850 euros, que la ARRENDATARIA abonará dentro de los cinco primeros días de cada mes mediante transferencia a la cuenta con IBAN ES91 2100 0418 4502 0005 1332, titularidad del ARRENDADOR.",
+    "La renta se actualizará anualmente conforme al índice que las partes acuerden, sin que la actualización pueda superar el límite legal vigente en cada momento.",
+    "CUARTA. Fianza. A la firma del presente contrato, la ARRENDATARIA entrega al ARRENDADOR una cantidad equivalente a una mensualidad de renta en concepto de fianza, que se devolverá al finalizar el contrato una vez comprobado el estado de la vivienda.",
+    "QUINTA. Gastos. Serán por cuenta de la ARRENDATARIA los gastos de suministros de agua, luz, gas y teléfono, que se contratarán a su nombre.",
+    "Los gastos de comunidad y el Impuesto sobre Bienes Inmuebles (IBI) serán por cuenta del ARRENDADOR.",
+    "La ARRENDATARIA se hará cargo de las pequeñas reparaciones derivadas del desgaste por el uso ordinario de la vivienda.",
+    "SEXTA. Desistimiento. La ARRENDATARIA podrá desistir del contrato una vez transcurridos seis meses, siempre que lo comunique al ARRENDADOR con una antelación mínima de 30 días.",
+    "SÉPTIMA. Obras. La ARRENDATARIA no podrá realizar obras que modifiquen la configuración de la vivienda sin el consentimiento previo y por escrito del ARRENDADOR. Las obras de mejora que este autorice quedarán en beneficio de la vivienda sin derecho a indemnización.",
+    "OCTAVA. Notificaciones. Las partes designan como domicilios a efectos de notificaciones los indicados en el encabezamiento de este contrato. Cualquier cambio deberá comunicarse por escrito.",
+    "NOVENA. Legislación aplicable. En lo no previsto en este contrato, las partes se someten a la legislación vigente en materia de arrendamientos urbanos y a los juzgados y tribunales de Madrid.",
+    "Y en prueba de conformidad, ambas partes firman el presente contrato por duplicado en el lugar y la fecha indicados.",
+    "EL ARRENDADOR: Fdo.: Juan Pérez García LA ARRENDATARIA: Fdo.: María López Sánchez",
+    "Documento ficticio generado para pruebas de docuprivado.es. Ningún dato corresponde a una persona real."
+   ],
+   "b": [
+    "CONTRATO DE ARRENDAMIENTO DE VIVIENDA",
+    "En Madrid, a 1 de septiembre de 2026.",
+    "REUNIDOS",
+    "De una parte, D. Juan Pérez García, mayor de edad, con DNI 12345678Z y domicilio en Calle del Ejemplo 12, 3.º B, 28013 Madrid, en adelante, el ARRENDADOR.",
+    "De otra parte, Dña. María López Sánchez, mayor de edad, con NIE X1234567L, teléfono 612 345 678 y correo electrónico maria.lopez@example.com, en adelante, la ARRENDATARIA.",
+    "Ambas partes se reconocen capacidad legal suficiente para otorgar el presente contrato y, a tal efecto,",
+    "EXPONEN",
+    "I. Que el ARRENDADOR es propietario de la vivienda situada en Avenida de la Prueba 45, 2.º A, 28080 Madrid, que se encuentra en buen estado de conservación.",
+    "II. Que la ARRENDATARIA está interesada en arrendar la vivienda para destinarla a su residencia habitual, por lo que ambas partes acuerdan las siguientes",
+    "CLÁUSULAS",
+    "PRIMERA. Objeto. El ARRENDADOR arrienda a la ARRENDATARIA, que acepta, la vivienda descrita en el expositivo I, para uso exclusivo de vivienda habitual de la ARRENDATARIA y de su familia. Queda prohibido el subarriendo total o parcial sin consentimiento escrito del ARRENDADOR.",
+    "SEGUNDA. Duración. El contrato tendrá una duración de un año a contar desde el 1 de octubre de 2026, prorrogable por plazos anuales en los términos que establezca la legislación vigente.",
+    "TERCERA. Renta. La renta mensual será de 950 euros, que la ARRENDATARIA abonará dentro de los cinco primeros días de cada mes mediante transferencia a la cuenta con IBAN ES91 2100 0418 4502 0005 1332, titularidad del ARRENDADOR.",
+    "La renta se actualizará anualmente conforme al índice que las partes acuerden, sin que la actualización pueda superar el límite legal vigente en cada momento.",
+    "CUARTA. Fianza. A la firma del presente contrato, la ARRENDATARIA entrega al ARRENDADOR una cantidad equivalente a una mensualidad de renta en concepto de fianza, que se devolverá al finalizar el contrato una vez comprobado el estado de la vivienda.",
+    "QUINTA. Gastos. Serán por cuenta de la ARRENDATARIA los gastos de suministros de agua, luz, gas y teléfono, que se contratarán a su nombre.",
+    "Los gastos de comunidad y el Impuesto sobre Bienes Inmuebles (IBI) serán por cuenta del ARRENDADOR.",
+    "SEXTA. Desistimiento. La ARRENDATARIA podrá desistir del contrato una vez transcurridos seis meses, siempre que lo comunique al ARRENDADOR con una antelación mínima de 15 días.",
+    "SÉPTIMA. Penalización. Si la ARRENDATARIA desiste del contrato antes de que se cumpla el primer año, deberá abonar al ARRENDADOR, en concepto de penalización, una cantidad equivalente a una mensualidad de renta, prorrateándose los períodos inferiores.",
+    "OCTAVA. Obras. La ARRENDATARIA no podrá realizar obras que modifiquen la configuración de la vivienda sin el consentimiento previo y por escrito del ARRENDADOR. Las obras de mejora que este autorice quedarán en beneficio de la vivienda sin derecho a indemnización.",
+    "NOVENA. Notificaciones. Las partes designan como domicilios a efectos de notificaciones los indicados en el encabezamiento de este contrato. Cualquier cambio deberá comunicarse por escrito.",
+    "DÉCIMA. Legislación aplicable. En lo no previsto en este contrato, las partes se someten a la legislación vigente en materia de arrendamientos urbanos y a los juzgados y tribunales de Madrid.",
+    "Y en prueba de conformidad, ambas partes firman el presente contrato por duplicado en el lugar y la fecha indicados.",
+    "EL ARRENDADOR: Fdo.: Juan Pérez García LA ARRENDATARIA: Fdo.: María López Sánchez",
+    "Documento ficticio generado para pruebas de docuprivado.es. Ningún dato corresponde a una persona real."
+   ],
+   "resumen": {
+    "total": 4,
+    "anadidos": 1,
+    "eliminados": 1,
+    "modificados": 2,
+    "movidos": 0,
+    "importantes": 3,
+    "lectura": 0
+   },
+   "cambios": [
+    {
+     "tipo": "modificado",
+     "donde": "TERCERA. Renta",
+     "importantes": [
+      {
+       "etiqueta": "importe",
+       "antes": "850 euros",
+       "despues": "950 euros"
+      }
+     ]
+    },
+    {
+     "tipo": "eliminado",
+     "donde": "QUINTA. Gastos (párrafo 3)",
+     "importantes": []
+    },
+    {
+     "tipo": "modificado",
+     "donde": "SEXTA. Desistimiento",
+     "importantes": [
+      {
+       "etiqueta": "plazo",
+       "antes": "30 días",
+       "despues": "15 días"
+      }
+     ]
+    },
+    {
+     "tipo": "anadido",
+     "donde": "SÉPTIMA. Penalización",
+     "importantes": [
+      {
+       "etiqueta": "clausula",
+       "antes": "",
+       "despues": "SÉPTIMA. Penalización"
+      },
+      {
+       "etiqueta": "sensible",
+       "antes": "",
+       "despues": "penalización"
+      }
+     ]
+    }
+   ]
+  },
+  "contrato-cabeceras-v1.pdf → contrato-cabeceras-v2.pdf": {
+   "a": [
+    "CONTRATO DE ARRENDAMIENTO DE VIVIENDA",
+    "En Madrid, a 1 de septiembre de 2026.",
+    "REUNIDOS",
+    "De una parte, D. Juan Pérez García, mayor de edad, con DNI 12345678Z y domicilio en Calle del Ejemplo 12, 3.º B, 28013 Madrid, en adelante, el ARRENDADOR.",
+    "De otra parte, Dña. María López Sánchez, mayor de edad, con NIE X1234567L, teléfono 612 345 678 y correo electrónico maria.lopez@example.com, en adelante, la ARRENDATARIA.",
+    "Ambas partes se reconocen capacidad legal suficiente para otorgar el presente contrato y, a tal efecto,",
+    "EXPONEN",
+    "I. Que el ARRENDADOR es propietario de la vivienda situada en Avenida de la Prueba 45, 2.º A, 28080 Madrid, que se encuentra en buen estado de conservación.",
+    "II. Que la ARRENDATARIA está interesada en arrendar la vivienda para destinarla a su residencia habitual, por lo que ambas partes acuerdan las siguientes",
+    "CLÁUSULAS",
+    "PRIMERA. Objeto. El ARRENDADOR arrienda a la ARRENDATARIA, que acepta, la vivienda descrita en el expositivo I, para uso exclusivo de vivienda habitual de la ARRENDATARIA y de su familia. Queda prohibido el subarriendo total o parcial sin consentimiento escrito del ARRENDADOR.",
+    "SEGUNDA. Duración. El contrato tendrá una duración de un año a contar desde el 1 de octubre de 2026, prorrogable por plazos anuales en los términos que establezca la legislación vigente.",
+    "TERCERA. Renta. La renta mensual será de 850 euros, que la ARRENDATARIA abonará dentro de los cinco primeros días de cada mes mediante transferencia a la cuenta con IBAN ES91 2100 0418 4502 0005 1332, titularidad del ARRENDADOR.",
+    "La renta se actualizará anualmente conforme al índice que las partes acuerden, sin que la actualización pueda superar el límite legal vigente en cada momento.",
+    "CUARTA. Fianza. A la firma del presente contrato, la ARRENDATARIA entrega al ARRENDADOR una cantidad equivalente a una mensualidad de renta en concepto de fianza, que se devolverá al finalizar el contrato una vez comprobado el estado de la vivienda.",
+    "QUINTA. Gastos. Serán por cuenta de la ARRENDATARIA los gastos de suministros de agua, luz, gas y teléfono, que se contratarán a su nombre.",
+    "Los gastos de comunidad y el Impuesto sobre Bienes Inmuebles (IBI) serán por cuenta del ARRENDADOR.",
+    "La ARRENDATARIA se hará cargo de las pequeñas reparaciones derivadas del desgaste por el uso ordinario de la vivienda.",
+    "SEXTA. Desistimiento. La ARRENDATARIA podrá desistir del contrato una vez transcurridos seis meses, siempre que lo comunique al ARRENDADOR con una antelación mínima de 30 días.",
+    "SÉPTIMA. Obras. La ARRENDATARIA no podrá realizar obras que modifiquen la configuración de la vivienda sin el consentimiento previo y por escrito del ARRENDADOR. Las obras de mejora que este autorice quedarán en beneficio de la vivienda sin derecho a indemnización.",
+    "OCTAVA. Notificaciones. Las partes designan como domicilios a efectos de notificaciones los indicados en el encabezamiento de este contrato. Cualquier cambio deberá comunicarse por escrito.",
+    "NOVENA. Legislación aplicable. En lo no previsto en este contrato, las partes se someten a la legislación vigente en materia de arrendamientos urbanos y a los juzgados y tribunales de Madrid.",
+    "Y en prueba de conformidad, ambas partes firman el presente contrato por duplicado en el lugar y la fecha indicados.",
+    "EL ARRENDADOR: Fdo.: Juan Pérez García LA ARRENDATARIA: Fdo.: María López Sánchez"
+   ],
+   "b": [
+    "CONTRATO DE ARRENDAMIENTO DE VIVIENDA",
+    "En Madrid, a 1 de septiembre de 2026.",
+    "REUNIDOS",
+    "De una parte, D. Juan Pérez García, mayor de edad, con DNI 12345678Z y domicilio en Calle del Ejemplo 12, 3.º B, 28013 Madrid, en adelante, el ARRENDADOR.",
+    "De otra parte, Dña. María López Sánchez, mayor de edad, con NIE X1234567L, teléfono 612 345 678 y correo electrónico maria.lopez@example.com, en adelante, la ARRENDATARIA.",
+    "Ambas partes se reconocen capacidad legal suficiente para otorgar el presente contrato y, a tal efecto,",
+    "EXPONEN",
+    "I. Que el ARRENDADOR es propietario de la vivienda situada en Avenida de la Prueba 45, 2.º A, 28080 Madrid, que se encuentra en buen estado de conservación.",
+    "II. Que la ARRENDATARIA está interesada en arrendar la vivienda para destinarla a su residencia habitual, por lo que ambas partes acuerdan las siguientes",
+    "CLÁUSULAS",
+    "PRIMERA. Objeto. El ARRENDADOR arrienda a la ARRENDATARIA, que acepta, la vivienda descrita en el expositivo I, para uso exclusivo de vivienda habitual de la ARRENDATARIA y de su familia. Queda prohibido el subarriendo total o parcial sin consentimiento escrito del ARRENDADOR.",
+    "SEGUNDA. Duración. El contrato tendrá una duración de tres años a contar desde el 1 de octubre de 2026, prorrogable por plazos anuales en los términos que establezca la legislación vigente.",
+    "TERCERA. Renta. La renta mensual será de 950 euros, que la ARRENDATARIA abonará dentro de los cinco primeros días de cada mes mediante transferencia a la cuenta con IBAN ES91 2100 0418 4502 0005 1332, titularidad del ARRENDADOR.",
+    "La renta se actualizará anualmente conforme a la variación del IPC más un 2 %, sin que la actualización pueda superar el límite legal vigente en cada momento.",
+    "CUARTA. Fianza. A la firma del presente contrato, la ARRENDATARIA entrega al ARRENDADOR una cantidad equivalente a una mensualidad de renta en concepto de fianza, que se devolverá al finalizar el contrato una vez comprobado el estado de la vivienda.",
+    "QUINTA. Gastos. Serán por cuenta de la ARRENDATARIA los gastos de suministros de agua, luz, gas y teléfono, que se contratarán a su nombre.",
+    "Los gastos de comunidad serán por cuenta de la ARRENDATARIA y el Impuesto sobre Bienes Inmuebles (IBI), por cuenta del ARRENDADOR.",
+    "SEXTA. Desistimiento. La ARRENDATARIA podrá desistir del contrato una vez transcurridos seis meses, siempre que lo comunique al ARRENDADOR con una antelación mínima de 15 días.",
+    "SÉPTIMA. Penalización. Si la ARRENDATARIA desiste del contrato antes de que se cumpla el primer año, deberá abonar al ARRENDADOR, en concepto de penalización, una cantidad equivalente a una mensualidad de renta, prorrateándose los períodos inferiores.",
+    "OCTAVA. Obras. La ARRENDATARIA no podrá realizar obras que modifiquen la configuración de la vivienda sin el consentimiento previo y por escrito del ARRENDADOR. Las obras de mejora que este autorice quedarán en beneficio de la vivienda sin derecho a indemnización.",
+    "NOVENA. Notificaciones. Las partes designan como domicilios a efectos de notificaciones los indicados en el encabezamiento de este contrato. Cualquier cambio deberá comunicarse por escrito.",
+    "DÉCIMA. Legislación aplicable. En lo no previsto en este contrato, las partes se someten a la legislación vigente en materia de arrendamientos urbanos y a los juzgados y tribunales de Madrid.",
+    "Y en prueba de conformidad, ambas partes firman el presente contrato por duplicado en el lugar y la fecha indicados.",
+    "EL ARRENDADOR: Fdo.: Juan Pérez García LA ARRENDATARIA: Fdo.: María López Sánchez"
+   ],
+   "resumen": {
+    "total": 7,
+    "anadidos": 1,
+    "eliminados": 1,
+    "modificados": 5,
+    "movidos": 0,
+    "importantes": 5,
+    "lectura": 0
+   },
+   "cambios": [
+    {
+     "tipo": "modificado",
+     "donde": "SEGUNDA. Duración",
+     "importantes": [
+      {
+       "etiqueta": "plazo",
+       "antes": "un año",
+       "despues": "tres años"
+      }
+     ]
+    },
+    {
+     "tipo": "modificado",
+     "donde": "TERCERA. Renta",
+     "importantes": [
+      {
+       "etiqueta": "importe",
+       "antes": "850 euros",
+       "despues": "950 euros"
+      }
+     ]
+    },
+    {
+     "tipo": "modificado",
+     "donde": "TERCERA. Renta (párrafo 2)",
+     "importantes": [
+      {
+       "etiqueta": "importe",
+       "antes": "",
+       "despues": "2 %"
+      },
+      {
+       "etiqueta": "sensible",
+       "antes": "",
+       "despues": "IPC"
+      }
+     ]
+    },
+    {
+     "tipo": "modificado",
+     "donde": "QUINTA. Gastos (párrafo 2)",
+     "importantes": []
+    },
+    {
+     "tipo": "eliminado",
+     "donde": "QUINTA. Gastos (párrafo 3)",
+     "importantes": []
+    },
+    {
+     "tipo": "modificado",
+     "donde": "SEXTA. Desistimiento",
+     "importantes": [
+      {
+       "etiqueta": "plazo",
+       "antes": "30 días",
+       "despues": "15 días"
+      }
+     ]
+    },
+    {
+     "tipo": "anadido",
+     "donde": "SÉPTIMA. Penalización",
+     "importantes": [
+      {
+       "etiqueta": "clausula",
+       "antes": "",
+       "despues": "SÉPTIMA. Penalización"
+      },
+      {
+       "etiqueta": "sensible",
+       "antes": "",
+       "despues": "penalización"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

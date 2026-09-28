@@ -1,0 +1,2 @@
+Copia de los documentos de prueba FICTICIOS de la web (WEB A/tests/fixtures) para las pruebas de GitHub.
+La hace scripts/fixtures-para-github.mjs. Sin fotos de personas reales. No editar a mano.

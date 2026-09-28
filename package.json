@@ -1,0 +1,33 @@
+{
+  "name": "docuprivado-claude",
+  "version": "1.0.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "description": "Extensión de docuprivado para Claude Desktop: tacha, anonimiza y protege documentos sin que salgan del ordenador.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test \"tests/**/*.test.mjs\"",
+    "sync": "node scripts/sync-desde-web.mjs",
+    "sin-red": "node scripts/comprobar-sin-red.mjs",
+    "empaquetar": "node scripts/empaquetar.mjs"
+  },
+  "dependencies": {
+    "@embedpdf/pdfium": "2.15.1",
+    "@modelcontextprotocol/server": "2.1.0",
+    "@tesseract.js-data/spa": "1.0.0",
+    "jpeg-js": "0.4.4",
+    "libheif-js": "1.23.2",
+    "pdf-lib": "1.17.1",
+    "pdfjs-dist": "6.1.200",
+    "pngjs": "7.0.0",
+    "tesseract.js": "7.0.0",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@anthropic-ai/mcpb": "2.1.2",
+    "@modelcontextprotocol/inspector": "2.8.0"
+  }
+}

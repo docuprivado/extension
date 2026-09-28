@@ -1,0 +1,2015 @@
+{
+ "aviso": "Generado con scripts/paridad_web.py a partir del tachador de la web. No editar a mano.",
+ "fecha": "2026-09-28",
+ "webCommit": "6bcc917",
+ "pagina": "/tachar-documento/",
+ "tipos": [
+  "dni",
+  "nombre",
+  "fecha_nac",
+  "empresa",
+  "telefono",
+  "email",
+  "direccion",
+  "iban",
+  "tarjeta",
+  "importe",
+  "nss",
+  "matricula"
+ ],
+ "archivos": {
+  "nomina-ficticia.pdf": {
+   "sha256": "529c1b70de635728bd950a46d7b8da3771ab84c57e8ac87043dbb055e2bfabf8",
+   "marcas": [
+    {
+     "pagina": 1,
+     "tipo": "empresa",
+     "valor": "EMPRESA FICTICIA DE PRUEBAS, S.L.",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "direccion",
+     "valor": "Avenida de la Prueba 45\n28080 Madrid",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "cif",
+     "valor": "B00000000",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "Juan Pérez García",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "dni",
+     "valor": "12345678Z",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nss",
+     "valor": "28/12345678/40",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "fecha_nac",
+     "valor": "15/03/1985",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "direccion",
+     "valor": "Calle del Ejemplo 12, 3.º B, 28013 Madrid",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "telefono",
+     "valor": "612 345 678",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "email",
+     "valor": "juan.perez@example.com",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "1.650,00",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "200,00",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "90,00",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "308,33",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "2.248,33",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "105,67",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "34,85",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "2,25",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "269,80",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "412,57",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "1.835,76 €",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "iban",
+     "valor": "ES91 2100 0418 4502 0005 1332",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "María López Sánchez",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nie",
+     "valor": "X1234567L",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "Juan Pérez García",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    }
+   ]
+  },
+  "contrato-ficticio.pdf": {
+   "sha256": "a020e01d004429ea55c42a8b7a510520d5a853c401ee3b0d656fe52e4f9b2e55",
+   "marcas": [
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "Juan Pérez García",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "dni",
+     "valor": "12345678Z",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "direccion",
+     "valor": "Calle del Ejemplo 12, 3.º B, 28013 Madrid",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "María López Sánchez",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nie",
+     "valor": "X1234567L",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "telefono",
+     "valor": "612 345 678",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "email",
+     "valor": "maria.lopez@example.com",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "direccion",
+     "valor": "Avenida de la Prueba 45,\n2.º A, 28080 Madrid",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "850 euros",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "iban",
+     "valor": "ES91 2100 0418 4502 0005 1332",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 2,
+     "tipo": "nombre",
+     "valor": "Juan Pérez García",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 2,
+     "tipo": "nombre",
+     "valor": "María\nLópez Sánchez",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 3,
+     "tipo": "matricula",
+     "valor": "1234 BCD",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 3,
+     "tipo": "nombre",
+     "valor": "Juan Pérez García",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 3,
+     "tipo": "nombre",
+     "valor": "María López Sánchez",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    }
+   ]
+  },
+  "contrato-cortes.pdf": {
+   "sha256": "4973b69702d0c425708a505792c9dccdacb1dabea48f5a43bab1870e24ae7467",
+   "marcas": [
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "Juan Pérez\nGarcía",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "dni",
+     "valor": "12345678\nZ",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "direccion",
+     "valor": "Calle del Ejemplo 12, 3.º B, 28013 Madrid",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "María\nLópez Sánchez",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nie",
+     "valor": "X1234567\nL",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "telefono",
+     "valor": "612 345\n678",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "email",
+     "valor": "maria.lopez@example.com",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "empresa",
+     "valor": "ZAFIRO DIGITAL SOLUTIONS, S.L.",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "cif",
+     "valor": "B1234567\n4",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "Pedro Ruiz Ortega",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "dni",
+     "valor": "87.654.321-\nX",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "SEISCIENTOS CINCUENTA EUROS (650,00\n€)",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "iban",
+     "valor": "ES91 2100 0418\n4502 0005 1332",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "seiscientos\ncincuenta (650 €)",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "mil trescientos\neuros",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "ochenta y cinco\neuros con cincuenta céntimos",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "dos mil quinientos euros",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "mil doscientos\ncincuen-\nta euros",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "Carmen Ruiz Ortega",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "dni",
+     "valor": "11111111 H",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": [
+      2
+     ]
+    },
+    {
+     "pagina": 2,
+     "tipo": "nombre",
+     "valor": "Juan Pérez García",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 2,
+     "tipo": "nombre",
+     "valor": "María López Sánchez",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    }
+   ]
+  },
+  "contrato-letra-pequena.pdf": {
+   "sha256": "9d537450d042c02fb01a84142bdc557fc90219d898ed94aa5797fa0676b4a466",
+   "marcas": [
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "Laura Gómez Ferrer",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "direccion",
+     "valor": "Ronda de Atocha 30, 5º izda.\n28012 Madrid",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "Tomás Herrero Vidal",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "dni",
+     "valor": "12345678Z",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "direccion",
+     "valor": "Almendros 14, 3.º A, 28045 Madrid",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "Marta Gil Serrano",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nie",
+     "valor": "X1234567L",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "direccion",
+     "valor": "calle de San Bernardo, número 21, piso 4.º,\npuerta 2, de Valladolid",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "telefono",
+     "valor": "612 345 678",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "empresa",
+     "valor": "INMOBILIARIA LOS ALMENDROS DEL TORMES, S.L.",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "cif",
+     "valor": "B12345674",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "direccion",
+     "valor": "Avenida de Portugal,\n112, bajo, 37006 Salamanca",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "direccion",
+     "valor": "Pº de la Castellana 200, esc. B, 7º D, de Madrid",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "direccion",
+     "valor": "número 9 de la calle Olivo",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "empresa",
+     "valor": "Reformas Hermanos Ruiz, S.L.U.",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "empresa",
+     "valor": "Banco Santander",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "empresa",
+     "valor": "Iberdrola",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "empresa",
+     "valor": "Movistar",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "SEISCIENTOS CINCUENTA EUROS (650,00 €)",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "iban",
+     "valor": "ES91 2100 0418 4502 0005 1332",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "7.800,00 euros",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "mil trescientos euros",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "1.300 €",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "39,99 €",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "dos mil quinientos euros con\ncincuenta céntimos",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "direccion",
+     "valor": "Plaza de la Merced s/n, 37008 Salamanca",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "direccion",
+     "valor": "C/\nPintor Rosales, 7 – 1ºB, de Madrid",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "EUR 150",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "1.250,50€",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "100 euros",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "empresa",
+     "valor": "Termoclima Salmantina",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "650,00",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "1.300,00",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "39,99",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "1.989,99",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "direccion",
+     "valor": "CL MAYOR 12 3 B 50001 ZARAGOZA",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "Tomás Herrero Vidal",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "Marta Gil Serrano",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    }
+   ]
+  },
+  "contrato-v1.pdf": {
+   "sha256": "0b29f7048ec2228b7722311e5bb469dcba172d38281858fde63666fcd745da9e",
+   "marcas": [
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "Juan Pérez García",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "dni",
+     "valor": "12345678Z",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "direccion",
+     "valor": "Calle del Ejemplo 12, 3.º B, 28013 Madrid",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "María López Sánchez",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nie",
+     "valor": "X1234567L",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "telefono",
+     "valor": "612 345 678",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "email",
+     "valor": "maria.lopez@example.com",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "direccion",
+     "valor": "Avenida de la Prueba 45,\n2.º A, 28080 Madrid",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "850 euros",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "iban",
+     "valor": "ES91 2100 0418 4502 0005 1332",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 2,
+     "tipo": "nombre",
+     "valor": "Juan Pérez García",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 2,
+     "tipo": "nombre",
+     "valor": "María\nLópez Sánchez",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    }
+   ]
+  },
+  "contrato-v2.pdf": {
+   "sha256": "e58ee6a8b31d91f52dba48e087bc842d0f432947ecc59c63755eeb1643d9f324",
+   "marcas": [
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "Juan Pérez García",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "dni",
+     "valor": "12345678Z",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "direccion",
+     "valor": "Calle del Ejemplo 12, 3.º B, 28013 Madrid",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "María López Sánchez",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nie",
+     "valor": "X1234567L",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "telefono",
+     "valor": "612 345 678",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "email",
+     "valor": "maria.lopez@example.com",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "direccion",
+     "valor": "Avenida de la Prueba 45,\n2.º A, 28080 Madrid",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "950 euros",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "iban",
+     "valor": "ES91 2100 0418 4502 0005 1332",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 2,
+     "tipo": "nombre",
+     "valor": "Juan Pérez García",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 2,
+     "tipo": "nombre",
+     "valor": "María\nLópez Sánchez",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    }
+   ]
+  },
+  "contrato-cabeceras-v1.pdf": {
+   "sha256": "ce91d9eeee0e84749e284fe6d949a7e5c2cf02390ee41f6bb23f1847834a32f0",
+   "marcas": [
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "Juan Pérez García",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "dni",
+     "valor": "12345678Z",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "direccion",
+     "valor": "Calle del Ejemplo 12, 3.º B, 28013 Madrid",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "María López Sánchez",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nie",
+     "valor": "X1234567L",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "telefono",
+     "valor": "612 345 678",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "email",
+     "valor": "maria.lopez@example.com",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "direccion",
+     "valor": "Avenida\nde la Prueba 45, 2.º A, 28080 Madrid",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "850 euros",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "iban",
+     "valor": "ES91 2100 0418 4502 0005\n1332",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 2,
+     "tipo": "nombre",
+     "valor": "Juan Pérez García",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 2,
+     "tipo": "nombre",
+     "valor": "María López Sánchez",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    }
+   ]
+  },
+  "contrato-cabeceras-v2.pdf": {
+   "sha256": "0926ef5885d500c8fe0edc39535c69a0eaffd39049bd4866b9cada3df0a16052",
+   "marcas": [
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "Juan Pérez García",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "dni",
+     "valor": "12345678Z",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "direccion",
+     "valor": "Calle del Ejemplo 12, 3.º B, 28013 Madrid",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "María López Sánchez",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nie",
+     "valor": "X1234567L",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "telefono",
+     "valor": "612 345 678",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "email",
+     "valor": "maria.lopez@example.com",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "direccion",
+     "valor": "Avenida\nde la Prueba 45, 2.º A, 28080 Madrid",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "950 euros",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "iban",
+     "valor": "ES91 2100 0418 4502 0005\n1332",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 2,
+     "tipo": "nombre",
+     "valor": "Juan Pérez García",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 2,
+     "tipo": "nombre",
+     "valor": "María López Sánchez",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    }
+   ]
+  },
+  "debajo/1-nomina-bloque.pdf": {
+   "sha256": "ea8b36f66b4f3c47582f4b6023e92f5346c1c3c50317d83762b27c163f39ccf5",
+   "marcas": [
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "PÉREZ GARCÍA, JUAN",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "dni",
+     "valor": "12345678Z",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "iban",
+     "valor": "ES91 2100 0418 4502 0005 1332",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nss",
+     "valor": "28/12345678/90",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "empresa",
+     "valor": "EMPRESA FICTICIA DE PRUEBAS, S.L.",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "cif",
+     "valor": "B00000000",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "direccion",
+     "valor": "Avenida de la Prueba 45",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "1.450,00 €",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    }
+   ]
+  },
+  "debajo/2-carta.pdf": {
+   "sha256": "e0d8cb4c1979561bedf9430347c02c6ac8c930128589f09159a9d5f9fc00ce21",
+   "marcas": [
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "María López Sánchez",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nie",
+     "valor": "Y2345678Z",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "iban",
+     "valor": "ES91 2100 0418 4502 0005 1332",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    }
+   ]
+  },
+  "debajo/3-tabla.pdf": {
+   "sha256": "615b54349d6b32761fc9d528bb44d711fe6f3da06694c53aa508979f1825795f",
+   "marcas": [
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "Juan Pérez García",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "dni",
+     "valor": "12345678Z",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "iban",
+     "valor": "ES91 2100 0418 4502 0005 1332",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "María López Sánchez",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nie",
+     "valor": "X1234567L",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "iban",
+     "valor": "ES66 2100 0418 4012 3456 7891",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    }
+   ]
+  },
+  "debajo/4-objeto-texto.pdf": {
+   "sha256": "6ad73ffc999bde2c92dcfcb3560ae95584b1574bbdd4c11aa74ca5342f03a75a",
+   "marcas": [
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "Juan Pérez García",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "dni",
+     "valor": "12345678Z",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "direccion",
+     "valor": "Calle del Ejemplo 12, 3.º B, 28013 Madrid",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "iban",
+     "valor": "ES91 2100 0418 4502 0005 1332",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    }
+   ]
+  },
+  "debajo/5-trozos.pdf": {
+   "sha256": "9feae9a29a422da71d6a05a92e00864d1dc3ec50cd6b1a3f618aa389fc3d9f1c",
+   "marcas": [
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "Juan Pérez García",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "dni",
+     "valor": "12345678Z",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "iban",
+     "valor": "ES91 2100 0418 4502 0005 1332",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    }
+   ]
+  },
+  "debajo/6-apretado.pdf": {
+   "sha256": "66bbf79fd942a2b29885ac379f39d9c257159fa7f520f5b9b55fdffc3f673a2e",
+   "marcas": [
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "JUAN PÉREZ GARCÍA",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nie",
+     "valor": "X1234567L",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "iban",
+     "valor": "ES91 2100 0418 4502 0005 1332",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    }
+   ]
+  },
+  "debajo/7-firma.pdf": {
+   "sha256": "3bd26c5374b3f19c7ebc165e178ec9685ea82f27948fc181cc603dfa219769aa",
+   "marcas": [
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "Juan Pérez García",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "dni",
+     "valor": "12345678Z",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "María López Sánchez",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nie",
+     "valor": "X1234567L",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    }
+   ]
+  },
+  "formulario-ficticio.pdf": {
+   "sha256": "a7a5447a404ca70c5cf49c1bf04ab848076fdcbcf46fe954f058d832b366592c",
+   "marcas": [
+    {
+     "pagina": 1,
+     "tipo": "dni",
+     "valor": "11111111H",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "Juan Pérez García",
+     "confianza": "alta",
+     "activa": true,
+     "campo": "nombre_solicitante",
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "dni",
+     "valor": "12345678Z",
+     "confianza": "alta",
+     "activa": true,
+     "campo": "dni",
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "iban",
+     "valor": "ES91 2100 0418 4502 0005 1332",
+     "confianza": "alta",
+     "activa": true,
+     "campo": "cuenta_iban",
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "Xiana",
+     "confianza": "alta",
+     "activa": true,
+     "campo": "nombre_hijo",
+     "siguePagina": []
+    }
+   ]
+  },
+  "contrato-escaneado.pdf": {
+   "sha256": "fc5a7e9e50a9254e47735e631dcc00edd7855cb1e208c7eed6910dc8941019a1",
+   "marcas": [
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "Juan Pérez García",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "dni",
+     "valor": "123456787",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "direccion",
+     "valor": "Calle del Ejemplo 12, 3. B, 28013 Madrid",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "María López Sánchez",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nie",
+     "valor": "X1234567L",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "telefono",
+     "valor": "612\n345 678",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "email",
+     "valor": "maria.lopezQexample.com",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "direccion",
+     "valor": "Avenida de la Prueba 45,\n2 A, 28080 Madrid",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "importe",
+     "valor": "850 euros",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "iban",
+     "valor": "ES91 2100 0418 4502 0005 1332",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 2,
+     "tipo": "nombre",
+     "valor": "Juan Pérez García",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 2,
+     "tipo": "nombre",
+     "valor": "María López\nSánchez",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 3,
+     "tipo": "matricula",
+     "valor": "1234 BCD",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 3,
+     "tipo": "nombre",
+     "valor": "Juan Pérez García",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 3,
+     "tipo": "nombre",
+     "valor": "María López Sánchez",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    }
+   ]
+  },
+  "captura-ficticia.png": {
+   "sha256": "a48bdbeb030ea20c950f3c3a435625d2e405d0293d7f0187ea1ab37246f40529",
+   "marcas": [
+    {
+     "pagina": 1,
+     "tipo": "telefono",
+     "valor": "612 345 678",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "email",
+     "valor": "ana.ejemplo(Qexample.com",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "dni",
+     "valor": "123456787",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    }
+   ]
+  },
+  "fotos/foto-textos.png": {
+   "sha256": "b08806acbb13522df81a0b5ac2e07a36e08444a9eb8903b2fff7999f4b81381f",
+   "marcas": [
+    {
+     "pagina": 1,
+     "tipo": "dni",
+     "valor": "123456787",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    }
+   ]
+  },
+  "dni-facil-anverso.jpg": {
+   "sha256": "6d3984f530f17c9e3489acb3802bffd93292111ffbaf194d86a468736909462c",
+   "marcas": [
+    {
+     "pagina": 1,
+     "tipo": "dni",
+     "valor": "123456787",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    }
+   ]
+  },
+  "dni-facil-reverso.jpg": {
+   "sha256": "ab9e7a63a13a974f0e0ea38fe26f70103dfeb074f945b5b364667016c336e0bc",
+   "marcas": [
+    {
+     "pagina": 1,
+     "tipo": "direccion",
+     "valor": "CALLE DEL EJEMPLO 12, 3 B\n28013 MADRID",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    },
+    {
+     "pagina": 1,
+     "tipo": "nombre",
+     "valor": "DAI de TO\nPEDRO",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    }
+   ]
+  },
+  "dni-dificil.jpg": {
+   "sha256": "e14958fbc4f3df7396035212c0f31c537e9b4d4885b08362d25c1b654834f7a4",
+   "marcas": []
+  },
+  "pasaporte-prueba.jpg": {
+   "sha256": "c220f929f7cdfe7fd39d27003a27b1b817fc3d03411d6ed372dd02eb390ebc64",
+   "marcas": [
+    {
+     "pagina": 1,
+     "tipo": "dni",
+     "valor": "123456787",
+     "confianza": "media",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    }
+   ]
+  },
+  "foto-exif-rotada.jpg": {
+   "sha256": "82bec6862babcd741c2e73658ce892ed42dbfec3ac7d14012e92ab95d30ce2f7",
+   "marcas": [
+    {
+     "pagina": 1,
+     "tipo": "dni",
+     "valor": "123456787",
+     "confianza": "alta",
+     "activa": true,
+     "campo": null,
+     "siguePagina": []
+    }
+   ]
+  }
+ }
+}

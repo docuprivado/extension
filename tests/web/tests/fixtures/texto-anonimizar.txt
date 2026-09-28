@@ -1,0 +1,20 @@
+Asunto: Documentación para el contrato de alquiler
+
+Hola, Laura:
+
+Te escribo en nombre de mi cliente, D. Juan Pérez García (DNI 12345678Z), nacido el 15/03/1985, con domicilio en Calle del Ejemplo 12, 3.º B, 28013 Madrid. Puedes localizarle en el 612 345 678 o en juan.perez@example.com.
+
+La inquilina será Dña. María López Sánchez, con NIE X1234567L y fecha de nacimiento 02/07/1992. Su número de la Seguridad Social es 28/12345678/40.
+
+La renta de 850 euros se ingresará en la cuenta ES91 2100 0418 4502 0005 1332 (antes, 2100 0418 45 0200051332). Para la fianza, la Sra. López prefiere pagar con la tarjeta 4111 1111 1111 1111.
+
+La plaza de garaje queda asignada al vehículo 1234 BCD.
+
+El Sr. Pérez me pide que le confirmes la cita del jueves 8 de octubre.
+
+Un saludo,
+Carmen Ruiz Ortega
+Gestoría Ejemplo, S.L.
+Tel. 911 234 567
+
+(Texto ficticio para pruebas de docuprivado.es: ningún dato corresponde a una persona real.)

@@ -1,0 +1,101 @@
+{
+  "aviso": "Copia automática de la web (scripts/sync-desde-web.mjs). No editar a mano.",
+  "copiado": "2026-09-28T20:22:46.472Z",
+  "web": {
+    "carpeta": "../WEB A",
+    "commit": "b2f31f3",
+    "cambiosSinGuardar": []
+  },
+  "archivos": [
+    {
+      "origen": "js/detectores.js",
+      "destino": "detectores.cjs",
+      "bytes": 87382,
+      "sha256": "fa859275dcad6d199ad27057a58fe20bab0c409ef0bd5114a0ea0599d77adeb4"
+    },
+    {
+      "origen": "js/tachador-reglas.js",
+      "destino": "tachador-reglas.cjs",
+      "bytes": 17377,
+      "sha256": "a4d7c225b6fc107a717032723df936c3634e5008ced5a1024ab42148ed207048"
+    },
+    {
+      "origen": "js/fotos-motor.js",
+      "destino": "fotos-motor.web.js",
+      "bytes": 30978,
+      "sha256": "afc4b503c27abc4772920b55980bbe7cf7b2c248731e522025a67eb7547a3379"
+    },
+    {
+      "origen": "js/anonimizador-reglas.js",
+      "destino": "anonimizador-reglas.cjs",
+      "bytes": 12993,
+      "sha256": "672e0c8a8c1fdfc14c23b8de0f6a42fb213fdb4b2cf800780bf9e373ed91eb97"
+    },
+    {
+      "origen": "js/kit-dni-bordes.js",
+      "destino": "kit-dni-bordes.web.js",
+      "bytes": 24350,
+      "sha256": "d2609b7dbe2c54d8fff411e7c6e14ebbcd3fda47660cc80c57a3819dc6108c4b"
+    },
+    {
+      "origen": "lib/vendor/opencv/opencv.js",
+      "destino": "opencv/opencv.js",
+      "bytes": 8980560,
+      "sha256": "7beec9c6b373927a6d68b145bff380a7b5c7f1b4a8c32bf88d11e591e54930a6"
+    },
+    {
+      "origen": "js/comparador-motor.js",
+      "destino": "comparador-motor.web.js",
+      "bytes": 33362,
+      "sha256": "cd97a50e1e14f40bde93e769bda5cf54e53ca9d1e24b3face0e01431f84ff8cb"
+    },
+    {
+      "origen": "lib/vendor/diff_match_patch.js",
+      "destino": "diff_match_patch.web.js",
+      "bytes": 21274,
+      "sha256": "d422c483b926ca7cea768a03c8f0f26ebc69d5041e3deb550d2709dd40fa16ea"
+    },
+    {
+      "origen": "lib/vendor/licencias/diff-match-patch-20190725-LICENSE.txt",
+      "destino": "licencias/diff-match-patch-20190725-LICENSE.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "origen": "assets/data/nombres.json",
+      "destino": "datos/nombres.json",
+      "bytes": 196181,
+      "sha256": "ecb94835196b16bb292be8540b1ecc0af8e5868da1d7f280631144838a3e30b7"
+    },
+    {
+      "origen": "assets/data/apellidos.json",
+      "destino": "datos/apellidos.json",
+      "bytes": 770763,
+      "sha256": "87b2cba2452adb51bc8c4d929043fce0cea8bd870790d8d88063580c27b14fe9"
+    },
+    {
+      "origen": "assets/data/excluir.json",
+      "destino": "datos/excluir.json",
+      "bytes": 5568,
+      "sha256": "073e0228393f0c0d4845d1ad1a958af133f9d6fc918068a3ec05c04fac80ff5a"
+    },
+    {
+      "origen": "assets/data/empresas.bin",
+      "destino": "datos/empresas.bin",
+      "bytes": 3751900,
+      "sha256": "d5062a88574fac91477fc4325318fe9a740df1f34beb4494d3d1bfff56dddfcb"
+    },
+    {
+      "origen": "tests/casos-detectores.js",
+      "destino": "pruebas/casos-detectores.cjs",
+      "bytes": 40264,
+      "sha256": "cd7ee7da9c1579bde9d85d106cdf6000924cca16a80af6b0071ba384c908e47d"
+    },
+    {
+      "origen": "tests/runner-detectores.js",
+      "destino": "pruebas/runner-detectores.cjs",
+      "bytes": 2689,
+      "sha256": "31c554abec559183c2207c6cd4aef7bd59b342c9a79b5ab6475e3460393a44fd"
+    }
+  ]
+}

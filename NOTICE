@@ -1,0 +1,36 @@
+docuprivado — extensión para Claude Desktop
+docuprivado — extension for Claude Desktop
+Copyright 2026 el titular de docuprivado.es (https://docuprivado.es/aviso-legal/)
+
+Este producto se ha desarrollado para docuprivado.es (https://docuprivado.es/claude/).
+This product was developed for docuprivado.es (https://docuprivado.es/claude/).
+
+Quien redistribuya este código o una obra derivada tiene que conservar este aviso
+(Licencia Apache 2.0, sección 4). La licencia no da permiso para usar el nombre
+«docuprivado» (sección 6).
+Redistributions of this code or derivative works must keep this notice (Apache
+License 2.0, section 4). The license grants no permission to use the name
+"docuprivado" (section 6).
+
+Componentes de terceros (cada uno viaja con su licencia) / Third-party components
+(each one ships with its license):
+- MCP TypeScript SDK y Zod: MIT
+- PDFium, vía @embedpdf/pdfium: BSD-3-Clause y Apache-2.0 (envoltorio MIT)
+- PDF.js (Mozilla): Apache-2.0
+- pdf-lib: MIT
+- Tesseract.js y sus datos de español: Apache-2.0
+- OpenCV.js 4.7.0: Apache-2.0
+- diff-match-patch (Google): Apache-2.0
+- jpeg-js: BSD-3-Clause; pngjs: MIT
+- libheif y libde265, vía libheif-js: LGPL-3.0, en un archivo aparte y sin modificar
+
+Datos / Data:
+- Nombres y apellidos: elaboración propia con datos extraídos del sitio web del INE
+  (https://www.ine.es/).
+- Empresas: lista elaborada a partir de los índices de sociedades del BORME, basada en
+  datos de la Agencia Estatal Boletín Oficial del Estado (https://www.boe.es/).
+
+docuprivado no está afiliado a Anthropic ni cuenta con su respaldo. Claude es una marca
+de Anthropic.
+docuprivado is not affiliated with or endorsed by Anthropic. Claude is a trademark of
+Anthropic.

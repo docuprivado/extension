@@ -1,0 +1,65 @@
+# Pruebas de la extensión en Windows y en macOS (mejora 3 del hito 7, aprobada por el titular el
+# 28/09/2026). Solo funciona cuando el código esté en GitHub, algo que decide el titular en el
+# hito 8. La copia pública, con la de los documentos de prueba ficticios de la web
+# (tests/web/), la prepara `node scripts/preparar-github.mjs`.
+#
+# Pasa lo mismo que en el ordenador de desarrollo, salvo la comparación con la web (aquí no
+# está): las pruebas automáticas, la prueba sin red, el MCP Inspector y el ensayo de las 12
+# frases de prueba y de las pruebas negativas. No prueba Claude Desktop.
+name: Pruebas en Windows y macOS
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  pruebas:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 30
+    defaults:
+      run:
+        shell: bash
+    env:
+      DOCUPRIVADO_WEB: tests/web
+    steps:
+      - uses: actions/checkout@v4
+
+      # La versión de Node que trae Claude Desktop (24).
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Instalar las librerías (versiones fijadas en package-lock.json)
+        run: npm ci
+
+      # La parte opcional de pdf.js es nativa y no viaja en la extensión (docs/LIBRERIAS.md).
+      - name: Quitar la parte opcional de pdf.js
+        run: rm -rf node_modules/@napi-rs/canvas*
+
+      - name: Pruebas automáticas
+        run: node --test "tests/**/*.test.mjs"
+
+      - name: Prueba sin red
+        run: node scripts/comprobar-sin-red.mjs
+
+      - name: MCP Inspector
+        run: node scripts/probar-inspector.mjs
+
+      - name: Ensayo de las 12 frases y de las pruebas negativas
+        run: node scripts/ensayo-frases.mjs
+
+      - name: Guardar el resultado del ensayo
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ensayo-${{ matrix.os }}
+          path: dist/ensayo-frases-*.json
+          if-no-files-found: ignore

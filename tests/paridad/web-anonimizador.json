@@ -1,0 +1,146 @@
+{
+ "aviso": "Generado con scripts/paridad_web.py a partir del anonimizador de la web. No editar a mano.",
+ "fecha": "2026-09-28",
+ "webCommit": "6bcc917",
+ "pagina": "/anonimizar-texto-chatgpt/",
+ "tipos": [
+  "dni",
+  "nombre",
+  "fecha_nac",
+  "empresa",
+  "telefono",
+  "email",
+  "direccion",
+  "iban",
+  "tarjeta",
+  "nss",
+  "matricula"
+ ],
+ "archivos": {
+  "texto-anonimizar.txt": {
+   "sha256": "369289ea4d93a80e1549dfcd9fa84a007fc4e650ed220a45a02db6e656f11dd1",
+   "grupos": [
+    {
+     "etiqueta": "[PERSONA_1]",
+     "tipo": "nombre",
+     "valor": "Juan Pérez García",
+     "confianza": "alta",
+     "veces": 2
+    },
+    {
+     "etiqueta": "[DNI_1]",
+     "tipo": "dni",
+     "valor": "12345678Z",
+     "confianza": "alta",
+     "veces": 1
+    },
+    {
+     "etiqueta": "[FECHA_NAC_1]",
+     "tipo": "fecha_nac",
+     "valor": "15/03/1985",
+     "confianza": "alta",
+     "veces": 1
+    },
+    {
+     "etiqueta": "[DIRECCION_1]",
+     "tipo": "direccion",
+     "valor": "Calle del Ejemplo 12, 3.º B, 28013 Madrid",
+     "confianza": "media",
+     "veces": 1
+    },
+    {
+     "etiqueta": "[TELEFONO_1]",
+     "tipo": "telefono",
+     "valor": "612 345 678",
+     "confianza": "alta",
+     "veces": 1
+    },
+    {
+     "etiqueta": "[EMAIL_1]",
+     "tipo": "email",
+     "valor": "juan.perez@example.com",
+     "confianza": "alta",
+     "veces": 1
+    },
+    {
+     "etiqueta": "[PERSONA_2]",
+     "tipo": "nombre",
+     "valor": "María López Sánchez",
+     "confianza": "alta",
+     "veces": 2
+    },
+    {
+     "etiqueta": "[NIE_1]",
+     "tipo": "nie",
+     "valor": "X1234567L",
+     "confianza": "alta",
+     "veces": 1
+    },
+    {
+     "etiqueta": "[FECHA_NAC_2]",
+     "tipo": "fecha_nac",
+     "valor": "02/07/1992",
+     "confianza": "alta",
+     "veces": 1
+    },
+    {
+     "etiqueta": "[NSS_1]",
+     "tipo": "nss",
+     "valor": "28/12345678/40",
+     "confianza": "alta",
+     "veces": 1
+    },
+    {
+     "etiqueta": "[IBAN_1]",
+     "tipo": "iban",
+     "valor": "ES91 2100 0418 4502 0005 1332",
+     "confianza": "alta",
+     "veces": 1
+    },
+    {
+     "etiqueta": "[CUENTA_1]",
+     "tipo": "cuenta",
+     "valor": "2100 0418 45 0200051332",
+     "confianza": "media",
+     "veces": 1
+    },
+    {
+     "etiqueta": "[TARJETA_1]",
+     "tipo": "tarjeta",
+     "valor": "4111 1111 1111 1111",
+     "confianza": "alta",
+     "veces": 1
+    },
+    {
+     "etiqueta": "[MATRICULA_1]",
+     "tipo": "matricula",
+     "valor": "1234 BCD",
+     "confianza": "alta",
+     "veces": 1
+    },
+    {
+     "etiqueta": "[PERSONA_3]",
+     "tipo": "nombre",
+     "valor": "Carmen Ruiz Ortega",
+     "confianza": "media",
+     "veces": 1
+    },
+    {
+     "etiqueta": "[EMPRESA_1]",
+     "tipo": "empresa",
+     "valor": "Gestoría Ejemplo, S.L.",
+     "confianza": "alta",
+     "veces": 1
+    },
+    {
+     "etiqueta": "[TELEFONO_2]",
+     "tipo": "telefono",
+     "valor": "911 234 567",
+     "confianza": "alta",
+     "veces": 1
+    }
+   ],
+   "texto": "Asunto: Documentación para el contrato de alquiler\n\nHola, Laura:\n\nTe escribo en nombre de mi cliente, D. [PERSONA_1] (DNI [DNI_1]), nacido el [FECHA_NAC_1], con domicilio en [DIRECCION_1]. Puedes localizarle en el [TELEFONO_1] o en [EMAIL_1].\n\nLa inquilina será Dña. [PERSONA_2], con NIE [NIE_1] y fecha de nacimiento [FECHA_NAC_2]. Su número de la Seguridad Social es [NSS_1].\n\nLa renta de 850 euros se ingresará en la cuenta [IBAN_1] (antes, [CUENTA_1]). Para la fianza, la Sra. [PERSONA_2] prefiere pagar con la tarjeta [TARJETA_1].\n\nLa plaza de garaje queda asignada al vehículo [MATRICULA_1].\n\nEl Sr. [PERSONA_1] me pide que le confirmes la cita del jueves 8 de octubre.\n\nUn saludo,\n[PERSONA_3]\n[EMPRESA_1]\nTel. [TELEFONO_2]\n\n(Texto ficticio para pruebas de docuprivado.es: ningún dato corresponde a una persona real.)\n"
+  }
+ }
+}

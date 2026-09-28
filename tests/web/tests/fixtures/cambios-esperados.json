@@ -1,0 +1,53 @@
+{
+  "descripcion": "Cambios sembrados entre contrato-v1 y contrato-v2 (documentos ficticios).",
+  "cambios": [
+    {
+      "tipo": "modificado",
+      "clausula": "TERCERA. Renta",
+      "antes": "850 euros",
+      "despues": "950 euros",
+      "importante": [
+        "importe"
+      ]
+    },
+    {
+      "tipo": "modificado",
+      "clausula": "SEXTA. Desistimiento",
+      "antes": "30 días",
+      "despues": "15 días",
+      "importante": [
+        "plazo"
+      ]
+    },
+    {
+      "tipo": "añadido",
+      "clausula": "SÉPTIMA. Penalización (nueva)",
+      "texto": "SÉPTIMA. Penalización. Si la ARRENDATARIA desiste del contrato antes de que se cumpla el primer año, deberá abonar al ARRENDADOR, en concepto de penalización, una cantidad equivalente a una mensualidad de renta, prorrateándose los períodos inferiores.",
+      "importante": [
+        "clausula-nueva",
+        "palabra-sensible"
+      ]
+    },
+    {
+      "tipo": "eliminado",
+      "clausula": "QUINTA. Gastos",
+      "texto": "La ARRENDATARIA se hará cargo de las pequeñas reparaciones derivadas del desgaste por el uso ordinario de la vivienda.",
+      "importante": []
+    }
+  ],
+  "renumeradas_sin_cambios": [
+    {
+      "antes": "SÉPTIMA. Obras",
+      "despues": "OCTAVA. Obras"
+    },
+    {
+      "antes": "OCTAVA. Notificaciones",
+      "despues": "NOVENA. Notificaciones"
+    },
+    {
+      "antes": "NOVENA. Legislación aplicable",
+      "despues": "DÉCIMA. Legislación aplicable"
+    }
+  ],
+  "total_cambios": 4
+}

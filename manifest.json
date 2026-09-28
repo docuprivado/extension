@@ -1,0 +1,146 @@
+{
+  "manifest_version": "0.3",
+  "name": "docuprivado",
+  "display_name": "docuprivado — protege tus documentos",
+  "version": "1.0.0",
+  "description": "Tacha datos personales, anonimiza archivos y protege la copia del DNI sin que tus documentos salgan de tu ordenador.",
+  "long_description": "Extensión gratuita de docuprivado.es para Claude Desktop. Su objetivo es ahorrarte tiempo: lo que en la web haces documento a documento, aquí lo pides con una frase y con carpetas enteras.\n\nTodo ocurre en tu ordenador: la extensión no se conecta a internet, solo usa las carpetas que eliges al instalarla, nunca modifica ni borra tus archivos (siempre crea copias nuevas) y el contenido de tus documentos no entra en la conversación salvo que pidas verlo.\n\nQué hace:\n- Tacha los datos personales de tus PDF (también escaneados y formularios rellenables) y de tus fotos y capturas, uno a uno o carpetas enteras, con una hoja para revisarlos.\n- Quita la ubicación y los demás datos ocultos de tus fotos (también las HEIC del iPhone).\n- Anonimiza archivos de texto y Word, conservando su formato, para pasárselos a una IA, con una tabla para devolverles después los datos reales.\n- Prepara la copia del DNI, NIE, carnet de conducir o pasaporte: recortada a su tamaño real, derecha y con una marca de agua que dice para qué es, aunque las dos caras estén en la misma foto.\n- Compara dos versiones de un contrato (Word, PDF o texto) y te dice qué ha cambiado, con un informe de todos los cambios y la versión nueva en Word con control de cambios.\n- Busca tus documentos y cuenta sus datos personales sin modificarlos.\nY trae cuatro plantillas de peticiones para empezar sin escribir: tachar una carpeta, preparar el DNI, anonimizar para una IA y ver qué ha cambiado en un contrato.\n\nEjemplos: «¿Qué puedes hacer con docuprivado?», «Tacha los datos personales de todas las nóminas de la carpeta Alquiler», «Quita la ubicación de todas las fotos de la carpeta Viaje», «Anonimiza correo-cliente.docx para pasárselo a ChatGPT», «Prepara mi DNI para alquilar un piso», «¿Qué ha cambiado entre contrato-v1.docx y contrato-v2.docx?».",
+  "author": {
+    "name": "docuprivado",
+    "email": "contacto@docuprivado.es",
+    "url": "https://docuprivado.es/"
+  },
+  "homepage": "https://docuprivado.es/claude/",
+  "license": "Apache-2.0",
+  "support": "https://docuprivado.es/contacto/",
+  "icon": "icon.png",
+  "server": {
+    "type": "node",
+    "entry_point": "server/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": [
+        "${__dirname}/server/index.js",
+        "${user_config.carpetas_permitidas}"
+      ],
+      "env": {
+        "DOCUPRIVADO_CARPETA_SALIDA": "${user_config.carpeta_salida}"
+      }
+    }
+  },
+  "tools": [
+    {
+      "name": "ayuda_docuprivado",
+      "description": "Explica qué puede hacer la extensión, con ejemplos, y qué carpetas puede usar."
+    },
+    {
+      "name": "listar_documentos",
+      "description": "Busca documentos por nombre, tipo o fecha en tus carpetas autorizadas, sin abrirlos."
+    },
+    {
+      "name": "analizar_datos_personales",
+      "description": "Cuenta los datos personales de tus PDF y fotos sin modificarlos; solo te los enseña, tapados en parte, si lo pides."
+    },
+    {
+      "name": "tachar_documentos",
+      "description": "Crea copias tachadas de tus PDF (también escaneados) y fotos, uno o carpetas enteras, sin nada debajo, y una hoja para revisarlas."
+    },
+    {
+      "name": "limpiar_metadatos_imagen",
+      "description": "Crea copias de tus fotos sin la ubicación ni los demás datos ocultos, y te dice cuántas la llevaban."
+    },
+    {
+      "name": "anonimizar_archivo",
+      "description": "Crea copias de archivos de texto o Word con los datos personales cambiados por etiquetas ([PERSONA_1]…) y la tabla para devolverlos; varios a la vez, con una sola tabla."
+    },
+    {
+      "name": "restaurar_archivo",
+      "description": "Devuelve los datos reales a un archivo con etiquetas (por ejemplo, la respuesta de una IA) usando la tabla de equivalencias."
+    },
+    {
+      "name": "proteger_copia_dni",
+      "description": "Prepara la copia del DNI, NIE, carnet o pasaporte: recortada a su tamaño real y con una marca de agua que dice para qué es, en PDF A4 o en imágenes."
+    },
+    {
+      "name": "comparar_documentos",
+      "description": "Compara dos versiones de un contrato (Word, PDF o texto) y te dice qué ha cambiado, con los cambios importantes primero, un informe con todos y un Word con control de cambios."
+    }
+  ],
+  "prompts": [
+    {
+      "name": "tachar_carpeta",
+      "description": "Crea copias tachadas de todos los PDF y fotos de una carpeta, sin tocar los originales, y una hoja para revisarlas.",
+      "arguments": [
+        "carpeta",
+        "dejar_visible"
+      ],
+      "text": "Quiero tachar los datos personales de todos los documentos de la carpeta «${arguments.carpeta}» con la extensión docuprivado.\nNombres o datos que deben quedar visibles (si no pone nada, ninguno): ${arguments.dejar_visible}\n\nHazlo así:\n1. Mira con listar_documentos qué hay en esa carpeta, sin abrir nada. Si no la encuentras o hay varias con ese nombre, pregúntame cuál es.\n2. Tacha con tachar_documentos todos los PDF (también escaneados) y fotos de la carpeta, dejando visible lo que he dicho arriba. Si todos son del mismo tipo (nóminas, contratos, capturas), usa ese perfil.\n3. Dime cuántas copias has creado y dónde, qué no se ha podido tachar y por qué, y recuérdame revisar las copias con la hoja de revisión antes de enviarlas.\nLos Word y los textos no se tachan: si hay alguno, dímelo y ofréceme anonimizarlo. No me enseñes los datos que encuentres salvo que te lo pida."
+    },
+    {
+      "name": "preparar_dni",
+      "description": "Copia protegida del DNI, NIE, carnet de conducir o pasaporte: recortada a su tamaño real y con una marca de agua que dice para qué es.",
+      "arguments": [
+        "finalidad",
+        "fotos"
+      ],
+      "text": "Prepárame una copia protegida de mi documento de identidad con la extensión docuprivado.\nPara qué es: ${arguments.finalidad}\nFotos o escaneo (si no pone nada, búscalos tú): ${arguments.fotos}\n\nHazlo así:\n1. Si no te he dicho las fotos, búscalas con listar_documentos (imágenes o PDF con «dni», «nie», «pasaporte» o «carnet» en el nombre). Si hay varias posibles, pregúntame cuáles son.\n2. Haz la copia con proteger_copia_dni, con la marca de agua de la finalidad de arriba, en PDF A4 para imprimir o entregar. Si hay varios trámites, una copia para cada uno.\n3. Dime dónde está la copia y recuérdame abrirla para comprobar que las dos caras se ven bien antes de entregarla."
+    },
+    {
+      "name": "anonimizar_para_ia",
+      "description": "Crea una copia de tus Word o textos con los datos personales cambiados por etiquetas, para pasársela a ChatGPT u otra IA, y la tabla para devolverle después los datos reales.",
+      "arguments": [
+        "archivos"
+      ],
+      "text": "Quiero pasarle a una IA (ChatGPT u otra) estos documentos sin sus datos personales: ${arguments.archivos}\n\nHazlo así con la extensión docuprivado:\n1. Anonimízalos con anonimizar_archivo. Si son varios, juntos, con una sola tabla, para que la misma persona lleve la misma etiqueta en todos.\n2. Dime dónde están las copias anónimas y la tabla, y dame la instrucción que tengo que pegarle a la IA para que respete las etiquetas.\n3. Recuérdame que guarde la tabla y que, cuando tenga la respuesta de la IA en un archivo, te pida devolverle los datos reales (con restaurar_archivo).\nSi alguno es un PDF o una foto, no se puede anonimizar: dímelo y ofréceme tacharlo. No me enseñes el texto ni los datos salvo que te lo pida."
+    },
+    {
+      "name": "comparar_contrato",
+      "description": "Compara la versión que conoces de un contrato con la nueva y te dice qué ha cambiado, con los cambios importantes primero.",
+      "arguments": [
+        "original",
+        "nuevo"
+      ],
+      "text": "Quiero saber qué ha cambiado en un contrato.\nVersión anterior (la que conozco o firmé): ${arguments.original}\nVersión nueva (la que me mandan ahora): ${arguments.nuevo}\n\nHazlo así con la extensión docuprivado:\n1. Compáralas con comparar_documentos. Si no encuentras alguno de los dos archivos, búscalo con listar_documentos y pregúntame si hay dudas.\n2. Resúmeme primero los cambios importantes (importes, fechas y plazos, cláusulas nuevas o quitadas, palabras delicadas como penalización o renuncia), con su antes y después, y luego el resto en pocas frases.\n3. Dime dónde están el informe y el Word con control de cambios, y recuérdame que la comparación es orientativa."
+    }
+  ],
+  "keywords": [
+    "privacidad",
+    "pdf",
+    "tachar",
+    "anonimizar",
+    "dni",
+    "rgpd",
+    "documentos",
+    "fotos",
+    "ubicacion",
+    "contratos"
+  ],
+  "privacy_policies": [
+    "https://docuprivado.es/claude/privacidad/"
+  ],
+  "compatibility": {
+    "claude_desktop": ">=2.9939.2",
+    "platforms": [
+      "win32",
+      "darwin"
+    ],
+    "runtimes": {
+      "node": ">=20.0.0"
+    }
+  },
+  "user_config": {
+    "carpetas_permitidas": {
+      "type": "directory",
+      "title": "Carpetas que puede usar",
+      "description": "Elige las carpetas donde guardas los documentos que quieres proteger (por ejemplo, Documentos o Descargas). La extensión no podrá tocar nada fuera de ellas.",
+      "multiple": true,
+      "required": true
+    },
+    "carpeta_salida": {
+      "type": "directory",
+      "title": "Carpeta para los resultados (opcional)",
+      "description": "Dónde guardar las copias que crea la extensión. Si no eliges ninguna, se guardan en una subcarpeta «docuprivado» junto a cada original. Tiene que estar dentro de las carpetas anteriores.",
+      "required": false
+    }
+  }
+}

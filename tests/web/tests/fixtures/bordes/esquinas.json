@@ -1,0 +1,593 @@
+{
+ "descripcion": "Esquinas reales de la tarjeta ficticia en cada escena (arriba-izquierda, arriba-derecha, abajo-derecha, abajo-izquierda de la tarjeta, en píxeles de la imagen). Generado por tools/make_fixtures_bordes.py.",
+ "casos": [
+  {
+   "archivo": "escena-01.jpg",
+   "fondo": "madera oscura",
+   "extras": [
+    "reflejo"
+   ],
+   "esquinas": [
+    [
+     220.8,
+     461.4
+    ],
+    [
+     858.8,
+     536.0
+    ],
+    [
+     832.7,
+     942.0
+    ],
+    [
+     178.2,
+     872.6
+    ]
+   ]
+  },
+  {
+   "archivo": "escena-02.jpg",
+   "fondo": "madera oscura",
+   "extras": [
+    "sombra",
+    "borrosa"
+   ],
+   "esquinas": [
+    [
+     430.5,
+     544.1
+    ],
+    [
+     1285.3,
+     330.7
+    ],
+    [
+     1414.4,
+     871.4
+    ],
+    [
+     569.5,
+     1073.6
+    ]
+   ]
+  },
+  {
+   "archivo": "escena-03.jpg",
+   "fondo": "madera oscura",
+   "extras": [],
+   "esquinas": [
+    [
+     315.5,
+     569.4
+    ],
+    [
+     1272.9,
+     109.7
+    ],
+    [
+     1549.1,
+     710.2
+    ],
+    [
+     635.5,
+     1128.2
+    ]
+   ]
+  },
+  {
+   "archivo": "escena-04.jpg",
+   "fondo": "madera clara",
+   "extras": [],
+   "esquinas": [
+    [
+     270.1,
+     363.0
+    ],
+    [
+     1232.1,
+     232.7
+    ],
+    [
+     1342.5,
+     842.7
+    ],
+    [
+     360.9,
+     973.3
+    ]
+   ]
+  },
+  {
+   "archivo": "escena-05.jpg",
+   "fondo": "madera clara",
+   "extras": [
+    "sombra"
+   ],
+   "esquinas": [
+    [
+     290.3,
+     475.5
+    ],
+    [
+     1302.2,
+     304.1
+    ],
+    [
+     1434.1,
+     969.5
+    ],
+    [
+     363.6,
+     1123.1
+    ]
+   ]
+  },
+  {
+   "archivo": "escena-06.jpg",
+   "fondo": "madera clara",
+   "extras": [
+    "dedo"
+   ],
+   "esquinas": [
+    [
+     200.4,
+     513.5
+    ],
+    [
+     983.7,
+     434.3
+    ],
+    [
+     995.4,
+     917.8
+    ],
+    [
+     252.8,
+     995.3
+    ]
+   ]
+  },
+  {
+   "archivo": "escena-07.jpg",
+   "fondo": "mesa blanca",
+   "extras": [
+    "reflejo"
+   ],
+   "esquinas": [
+    [
+     215.0,
+     439.4
+    ],
+    [
+     964.1,
+     270.0
+    ],
+    [
+     1052.3,
+     731.5
+    ],
+    [
+     358.2,
+     880.8
+    ]
+   ]
+  },
+  {
+   "archivo": "escena-08.jpg",
+   "fondo": "mesa blanca",
+   "extras": [
+    "sombra",
+    "borrosa"
+   ],
+   "esquinas": [
+    [
+     897.6,
+     295.3
+    ],
+    [
+     1017.6,
+     1144.9
+    ],
+    [
+     515.3,
+     1226.5
+    ],
+    [
+     338.9,
+     394.9
+    ]
+   ]
+  },
+  {
+   "archivo": "escena-09.jpg",
+   "fondo": "mesa blanca",
+   "extras": [],
+   "esquinas": [
+    [
+     626.9,
+     65.6
+    ],
+    [
+     1530.8,
+     531.3
+    ],
+    [
+     1290.6,
+     1121.4
+    ],
+    [
+     374.1,
+     665.6
+    ]
+   ]
+  },
+  {
+   "archivo": "escena-10.jpg",
+   "fondo": "folio blanco",
+   "extras": [],
+   "esquinas": [
+    [
+     350.6,
+     442.9
+    ],
+    [
+     1043.7,
+     726.6
+    ],
+    [
+     856.8,
+     1167.8
+    ],
+    [
+     165.4,
+     871.9
+    ]
+   ]
+  },
+  {
+   "archivo": "escena-11.jpg",
+   "fondo": "folio blanco",
+   "extras": [
+    "sombra"
+   ],
+   "esquinas": [
+    [
+     461.0,
+     495.9
+    ],
+    [
+     1257.4,
+     466.3
+    ],
+    [
+     1249.7,
+     965.9
+    ],
+    [
+     455.8,
+     1000.3
+    ]
+   ]
+  },
+  {
+   "archivo": "escena-12.jpg",
+   "fondo": "folio blanco",
+   "extras": [
+    "dedo"
+   ],
+   "esquinas": [
+    [
+     256.5,
+     59.8
+    ],
+    [
+     1314.6,
+     320.9
+    ],
+    [
+     1145.1,
+     1001.8
+    ],
+    [
+     108.9,
+     707.9
+    ]
+   ]
+  },
+  {
+   "archivo": "escena-13.jpg",
+   "fondo": "tela gris",
+   "extras": [
+    "reflejo"
+   ],
+   "esquinas": [
+    [
+     277.9,
+     436.4
+    ],
+    [
+     1175.8,
+     196.1
+    ],
+    [
+     1324.7,
+     764.4
+    ],
+    [
+     456.6,
+     969.0
+    ]
+   ]
+  },
+  {
+   "archivo": "escena-14.jpg",
+   "fondo": "tela gris",
+   "extras": [
+    "sombra",
+    "borrosa"
+   ],
+   "esquinas": [
+    [
+     349.7,
+     185.7
+    ],
+    [
+     1480.7,
+     165.7
+    ],
+    [
+     1455.8,
+     871.4
+    ],
+    [
+     358.3,
+     885.4
+    ]
+   ]
+  },
+  {
+   "archivo": "escena-15.jpg",
+   "fondo": "tela gris",
+   "extras": [],
+   "esquinas": [
+    [
+     180.9,
+     578.6
+    ],
+    [
+     1020.8,
+     336.9
+    ],
+    [
+     1160.8,
+     862.7
+    ],
+    [
+     347.2,
+     1092.9
+    ]
+   ]
+  },
+  {
+   "archivo": "escena-16.jpg",
+   "fondo": "mantel a cuadros",
+   "extras": [],
+   "esquinas": [
+    [
+     406.8,
+     361.0
+    ],
+    [
+     1206.0,
+     557.4
+    ],
+    [
+     1082.6,
+     1055.3
+    ],
+    [
+     315.0,
+     858.8
+    ]
+   ]
+  },
+  {
+   "archivo": "escena-17.jpg",
+   "fondo": "mantel a cuadros",
+   "extras": [
+    "sombra"
+   ],
+   "esquinas": [
+    [
+     923.8,
+     621.4
+    ],
+    [
+     650.9,
+     1193.6
+    ],
+    [
+     258.2,
+     1044.8
+    ],
+    [
+     554.4,
+     398.3
+    ]
+   ]
+  },
+  {
+   "archivo": "escena-18.jpg",
+   "fondo": "mantel a cuadros",
+   "extras": [
+    "dedo"
+   ],
+   "esquinas": [
+    [
+     650.5,
+     227.4
+    ],
+    [
+     1460.9,
+     515.7
+    ],
+    [
+     1233.1,
+     1013.4
+    ],
+    [
+     415.3,
+     719.1
+    ]
+   ]
+  },
+  {
+   "archivo": "escena-19.jpg",
+   "fondo": "mesa con papeles",
+   "extras": [
+    "reflejo"
+   ],
+   "esquinas": [
+    [
+     187.5,
+     707.6
+    ],
+    [
+     842.1,
+     492.0
+    ],
+    [
+     1015.8,
+     893.1
+    ],
+    [
+     334.2,
+     1138.3
+    ]
+   ]
+  },
+  {
+   "archivo": "escena-20.jpg",
+   "fondo": "mesa con papeles",
+   "extras": [
+    "sombra",
+    "borrosa"
+   ],
+   "esquinas": [
+    [
+     610.0,
+     235.1
+    ],
+    [
+     1381.2,
+     294.9
+    ],
+    [
+     1339.2,
+     762.5
+    ],
+    [
+     577.5,
+     732.8
+    ]
+   ]
+  },
+  {
+   "archivo": "escena-21.jpg",
+   "fondo": "mesa con papeles",
+   "extras": [],
+   "esquinas": [
+    [
+     167.8,
+     96.6
+    ],
+    [
+     1266.1,
+     230.7
+    ],
+    [
+     1128.2,
+     915.9
+    ],
+    [
+     41.9,
+     775.6
+    ]
+   ]
+  },
+  {
+   "archivo": "escena-22.jpg",
+   "fondo": "sofá azul",
+   "extras": [],
+   "esquinas": [
+    [
+     499.6,
+     138.5
+    ],
+    [
+     1347.9,
+     527.6
+    ],
+    [
+     1084.9,
+     1037.6
+    ],
+    [
+     217.1,
+     677.0
+    ]
+   ]
+  },
+  {
+   "archivo": "escena-23.jpg",
+   "fondo": "sofá azul",
+   "extras": [
+    "sombra"
+   ],
+   "esquinas": [
+    [
+     156.4,
+     423.6
+    ],
+    [
+     1286.3,
+     246.3
+    ],
+    [
+     1417.0,
+     929.3
+    ],
+    [
+     275.4,
+     1176.1
+    ]
+   ]
+  },
+  {
+   "archivo": "escena-24.jpg",
+   "fondo": "sofá azul",
+   "extras": [
+    "dedo"
+   ],
+   "esquinas": [
+    [
+     386.5,
+     505.3
+    ],
+    [
+     992.1,
+     728.1
+    ],
+    [
+     833.5,
+     1122.3
+    ],
+    [
+     248.4,
+     864.5
+    ]
+   ]
+  }
+ ]
+}

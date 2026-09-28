@@ -1,0 +1,252 @@
+[
+ {
+  "campos": [
+   "Ubicación exacta (GPS)"
+  ],
+  "sinPerdida": true,
+  "derecha": true,
+  "archivo": "orientacion-1.jpg"
+ },
+ {
+  "campos": [
+   "Ubicación exacta (GPS)"
+  ],
+  "sinPerdida": true,
+  "derecha": true,
+  "archivo": "orientacion-2.jpg"
+ },
+ {
+  "campos": [
+   "Ubicación exacta (GPS)"
+  ],
+  "sinPerdida": true,
+  "derecha": true,
+  "archivo": "orientacion-3.jpg"
+ },
+ {
+  "campos": [
+   "Ubicación exacta (GPS)"
+  ],
+  "sinPerdida": true,
+  "derecha": true,
+  "archivo": "orientacion-4.jpg"
+ },
+ {
+  "campos": [
+   "Ubicación exacta (GPS)"
+  ],
+  "sinPerdida": true,
+  "derecha": true,
+  "archivo": "orientacion-5.jpg"
+ },
+ {
+  "campos": [
+   "Ubicación exacta (GPS)"
+  ],
+  "sinPerdida": true,
+  "derecha": true,
+  "archivo": "orientacion-6.jpg"
+ },
+ {
+  "campos": [
+   "Ubicación exacta (GPS)"
+  ],
+  "sinPerdida": true,
+  "derecha": true,
+  "archivo": "orientacion-7.jpg"
+ },
+ {
+  "campos": [
+   "Ubicación exacta (GPS)"
+  ],
+  "sinPerdida": true,
+  "derecha": true,
+  "archivo": "orientacion-8.jpg"
+ },
+ {
+  "sinPerdida": true,
+  "campos": [
+   "Ubicación exacta (GPS)",
+   "Autor",
+   "Número de serie de la cámara",
+   "Número de serie del objetivo",
+   "Miniatura escondida",
+   "Lugar",
+   "Comentario",
+   "Datos de edición (XMP)"
+  ],
+  "archivo": "todo-progresivo.jpg"
+ },
+ {
+  "sinPerdida": true,
+  "campos": [
+   "Ubicación exacta (GPS)",
+   "Vídeo escondido en la foto"
+  ],
+  "sinCola": true,
+  "archivo": "foto-en-movimiento.jpg"
+ },
+ {
+  "sinPerdida": true,
+  "campos": [
+   "Otras imágenes dentro del archivo"
+  ],
+  "sinCola": true,
+  "archivo": "mpf-segunda-imagen.jpg"
+ },
+ {
+  "sinPerdida": true,
+  "campos": [
+   "Datos pegados al final del archivo"
+  ],
+  "sinCola": true,
+  "archivo": "cola-samsung.jpg"
+ },
+ {
+  "sinPerdida": true,
+  "campos": [
+   "Ubicación exacta (GPS)"
+  ],
+  "archivo": "cmyk.jpg"
+ },
+ {
+  "sinPerdida": false,
+  "campos": [],
+  "archivo": "relleno-entre-bloques.jpg"
+ },
+ {
+  "sinPerdida": true,
+  "campos": [
+   "Ubicación exacta (GPS)",
+   "Autor",
+   "Lugar"
+  ],
+  "archivo": "solo-xmp.jpg"
+ },
+ {
+  "sinPerdida": true,
+  "campos": [],
+  "vacia": true,
+  "archivo": "sin-datos.jpg"
+ },
+ {
+  "sinPerdida": true,
+  "campos": [
+   "Credenciales de contenido (C2PA)"
+  ],
+  "archivo": "c2pa.jpg"
+ },
+ {
+  "sinPerdida": true,
+  "transparente": true,
+  "campos": [
+   "Ubicación exacta (GPS)",
+   "Datos de edición (XMP)",
+   "Credenciales de contenido (C2PA)"
+  ],
+  "archivo": "png-todo-transparente.png"
+ },
+ {
+  "sinPerdida": true,
+  "campos": [
+   "Ubicación exacta (GPS)"
+  ],
+  "archivo": "png-girado.png"
+ },
+ {
+  "sinPerdida": true,
+  "campos": [
+   "Texto guardado en el PNG"
+  ],
+  "archivo": "png-paleta.png"
+ },
+ {
+  "sinPerdida": true,
+  "campos": [
+   "Fecha de modificación (PNG)"
+  ],
+  "archivo": "png-16bits.png"
+ },
+ {
+  "sinPerdida": true,
+  "campos": [
+   "Ubicación exacta (GPS)",
+   "Datos de edición (XMP)"
+  ],
+  "archivo": "webp-datos.webp"
+ },
+ {
+  "sinPerdida": true,
+  "transparente": true,
+  "campos": [
+   "Ubicación exacta (GPS)"
+  ],
+  "archivo": "webp-transparente.webp"
+ },
+ {
+  "sinPerdida": true,
+  "campos": [],
+  "vacia": true,
+  "archivo": "webp-sin-perdida.webp"
+ },
+ {
+  "sinPerdida": true,
+  "campos": [
+   "Ubicación exacta (GPS)"
+  ],
+  "archivo": "webp-girado.webp"
+ },
+ {
+  "sinPerdida": false,
+  "campos": [
+   "Ubicación exacta (GPS)"
+  ],
+  "archivo": "iphone-gps.heic"
+ },
+ {
+  "sinPerdida": true,
+  "campos": [
+   "Ubicación exacta (GPS)"
+  ],
+  "ancho": 8000,
+  "alto": 6000,
+  "archivo": "enorme-48mpx.jpg"
+ },
+ {
+  "sinPerdida": true,
+  "campos": [
+   "Ubicación exacta (GPS)"
+  ],
+  "archivo": "diminuta.jpg"
+ },
+ {
+  "campos": [
+   "Ubicación exacta (GPS)"
+  ],
+  "cortada": true,
+  "archivo": "cortada.jpg"
+ },
+ {
+  "error": "danado",
+  "archivo": "no-es-una-foto.jpg"
+ },
+ {
+  "error": "danado",
+  "archivo": "pdf-renombrado.jpg"
+ },
+ {
+  "error": "danado",
+  "enSubida": true,
+  "archivo": "vacia.jpg"
+ },
+ {
+  "error": "tamano",
+  "enSubida": true,
+  "archivo": "demasiado-grande.jpg"
+ },
+ {
+  "error": "formato",
+  "enSubida": true,
+  "archivo": "animada.gif"
+ }
+]

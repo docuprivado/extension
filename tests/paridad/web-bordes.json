@@ -1,0 +1,1114 @@
+{
+ "aviso": "Generado con scripts/paridad_web.py a partir del buscador de bordes del Kit DNI de la web. No editar a mano.",
+ "fecha": "2026-09-28",
+ "webCommit": "6bcc917",
+ "pagina": "/tests/bordes/",
+ "archivos": {
+  "bordes/escena-01.jpg": {
+   "sha256": "18e351970fe08b86e50165c84c0771eb6753153bb0b17c4276bbdd86a6d00947",
+   "formato": "id1",
+   "ancho": 1200,
+   "alto": 1600,
+   "confianza": "alta",
+   "nota": 0.94,
+   "origen": "zonas-inv0 +1",
+   "esquinas": [
+    [
+     220.6,
+     460.9
+    ],
+    [
+     858.5,
+     535.6
+    ],
+    [
+     832.1,
+     941.4
+    ],
+    [
+     177.6,
+     872.1
+    ]
+   ]
+  },
+  "bordes/escena-02.jpg": {
+   "sha256": "25ad180bc01d230d3838a0cd391bf77d9e43fc68420a3087ad927bdaf8382f12",
+   "formato": "id1",
+   "ancho": 1600,
+   "alto": 1200,
+   "confianza": "alta",
+   "nota": 0.99,
+   "origen": "zonas-inv1-rect +1",
+   "esquinas": [
+    [
+     430.1,
+     543.5
+    ],
+    [
+     1284.9,
+     330.3
+    ],
+    [
+     1413.9,
+     870.8
+    ],
+    [
+     569,
+     1073.2
+    ]
+   ]
+  },
+  "bordes/escena-03.jpg": {
+   "sha256": "ee2df9df26ed5b61245ee8472a65a328b71ffa500211bd264b7a1a788ced9930",
+   "formato": "id1",
+   "ancho": 1600,
+   "alto": 1200,
+   "confianza": "alta",
+   "nota": 0.97,
+   "origen": "bordes2 +1",
+   "esquinas": [
+    [
+     315.1,
+     569
+    ],
+    [
+     1272.4,
+     109.2
+    ],
+    [
+     1548.5,
+     709.6
+    ],
+    [
+     635,
+     1127.9
+    ]
+   ]
+  },
+  "bordes/escena-04.jpg": {
+   "sha256": "cef10f96182c12ef2ff709ad64c03b841362af04ce2ec7d34f87ba23f64c1ef3",
+   "formato": "id1",
+   "ancho": 1600,
+   "alto": 1200,
+   "confianza": "alta",
+   "nota": 0.94,
+   "origen": "bordes0 +1",
+   "esquinas": [
+    [
+     269.6,
+     362.7
+    ],
+    [
+     1231.6,
+     232
+    ],
+    [
+     1341.8,
+     842
+    ],
+    [
+     360.5,
+     972.9
+    ]
+   ]
+  },
+  "bordes/escena-05.jpg": {
+   "sha256": "27573fde9469bf24f9cefe789c7ff11681f8a44f820657aa4da55971e6935942",
+   "formato": "id1",
+   "ancho": 1600,
+   "alto": 1200,
+   "confianza": "alta",
+   "nota": 1,
+   "origen": "lineas +2",
+   "esquinas": [
+    [
+     290,
+     475
+    ],
+    [
+     1301.7,
+     303.6
+    ],
+    [
+     1433.6,
+     969.1
+    ],
+    [
+     362.9,
+     1122.4
+    ]
+   ]
+  },
+  "bordes/escena-06.jpg": {
+   "sha256": "9888393fc5c81f9dbb5334a3656fc7b998f0cdcc6377dd106dd626e8cb3071df",
+   "formato": "id1",
+   "ancho": 1200,
+   "alto": 1600,
+   "confianza": "alta",
+   "nota": 0.88,
+   "origen": "zonas1-rect +1",
+   "esquinas": [
+    [
+     200,
+     513
+    ],
+    [
+     983.1,
+     433.9
+    ],
+    [
+     995.1,
+     917.2
+    ],
+    [
+     252.4,
+     994.7
+    ]
+   ]
+  },
+  "bordes/escena-07.jpg": {
+   "sha256": "3b26aa78689bbb1fb9d6450b88680141fef51a6e37f70a82548630a1aebbd7ca",
+   "formato": "id1",
+   "ancho": 1600,
+   "alto": 1200,
+   "confianza": "media",
+   "nota": 0.91,
+   "origen": "bordes4",
+   "esquinas": [
+    [
+     217,
+     446.1
+    ],
+    [
+     964.7,
+     276.7
+    ],
+    [
+     1051.8,
+     731.3
+    ],
+    [
+     357.5,
+     880.1
+    ]
+   ]
+  },
+  "bordes/escena-08.jpg": {
+   "sha256": "38823c61c8e356132436992a4d39cb13563af2c06861cbdb3504f34ac8d2e5f2",
+   "formato": "id1",
+   "ancho": 1200,
+   "alto": 1600,
+   "confianza": "baja",
+   "nota": 0.46,
+   "origen": "zonas-inv1",
+   "esquinas": [
+    [
+     341.3,
+     403.6
+    ],
+    [
+     887.1,
+     298.7
+    ],
+    [
+     1013.3,
+     1136
+    ],
+    [
+     522.7,
+     1223.1
+    ]
+   ]
+  },
+  "bordes/escena-09.jpg": {
+   "sha256": "3e25cdc28378bda2e1fb34d6b52142df2b89ee8ec624bfeb9524068d78a75605",
+   "formato": "id1",
+   "ancho": 1600,
+   "alto": 1200,
+   "confianza": "media",
+   "nota": 0.94,
+   "origen": "bordes4",
+   "esquinas": [
+    [
+     637.1,
+     70.7
+    ],
+    [
+     1530.4,
+     530.9
+    ],
+    [
+     1290.8,
+     1120
+    ],
+    [
+     369.3,
+     665.3
+    ]
+   ]
+  },
+  "bordes/escena-10.jpg": {
+   "sha256": "131aecbff86791cca6427c44badeadc0fe78ca748589e2231c11f6f8295c1111",
+   "formato": "id1",
+   "ancho": 1200,
+   "alto": 1600,
+   "confianza": "alta",
+   "nota": 0.92,
+   "origen": "lineas +1",
+   "esquinas": [
+    [
+     373.4,
+     453.1
+    ],
+    [
+     1069.9,
+     737.2
+    ],
+    [
+     883,
+     1178.5
+    ],
+    [
+     188.3,
+     881.4
+    ]
+   ]
+  },
+  "bordes/escena-11.jpg": {
+   "sha256": "19b27bb35761970621f0ef7ffdcbbe159281ff5020613c8e29f5ea79798ae018",
+   "formato": "id1",
+   "ancho": 1600,
+   "alto": 1200,
+   "confianza": "media",
+   "nota": 0.63,
+   "origen": "bordes3 +1",
+   "esquinas": [
+    [
+     465.7,
+     501
+    ],
+    [
+     1253.7,
+     474.3
+    ],
+    [
+     1240,
+     946.8
+    ],
+    [
+     453.6,
+     978.5
+    ]
+   ]
+  },
+  "bordes/escena-12.jpg": {
+   "sha256": "ce7002dbf44f52961389b50e2e5ff94afa5c7db78f0a76672a00d07a9548263b",
+   "formato": "id1",
+   "ancho": 1600,
+   "alto": 1200,
+   "confianza": "baja",
+   "nota": 0.59,
+   "origen": "bordes1-rect",
+   "esquinas": [
+    [
+     166,
+     466.8
+    ],
+    [
+     1206.9,
+     749.8
+    ],
+    [
+     1145.1,
+     1001.5
+    ],
+    [
+     103.9,
+     706
+    ]
+   ]
+  },
+  "bordes/escena-13.jpg": {
+   "sha256": "c0cb560d0de6f77f34862ad8baf07c01405bc6cc54da0937eb705b0cee152f27",
+   "formato": "id1",
+   "ancho": 1600,
+   "alto": 1200,
+   "confianza": "alta",
+   "nota": 0.98,
+   "origen": "bordes0 +1",
+   "esquinas": [
+    [
+     277.5,
+     436
+    ],
+    [
+     1175.3,
+     195.6
+    ],
+    [
+     1323.8,
+     763.9
+    ],
+    [
+     456.2,
+     968.7
+    ]
+   ]
+  },
+  "bordes/escena-14.jpg": {
+   "sha256": "a0954818f2553a6afbf8eb17d58ba627e9fc8a6be0af00dd16a01b7113d38674",
+   "formato": "id1",
+   "ancho": 1600,
+   "alto": 1200,
+   "confianza": "alta",
+   "nota": 1,
+   "origen": "lineas +2",
+   "esquinas": [
+    [
+     348.9,
+     185
+    ],
+    [
+     1480.3,
+     165.4
+    ],
+    [
+     1455.2,
+     871
+    ],
+    [
+     357.8,
+     884.8
+    ]
+   ]
+  },
+  "bordes/escena-15.jpg": {
+   "sha256": "b2c1d8ffebda553035528915f074a36b4915d6926d1cf8232d6a6439752ebc67",
+   "formato": "id1",
+   "ancho": 1200,
+   "alto": 1600,
+   "confianza": "alta",
+   "nota": 0.98,
+   "origen": "bordes0 +1",
+   "esquinas": [
+    [
+     180.6,
+     578.1
+    ],
+    [
+     1020.2,
+     336.5
+    ],
+    [
+     1160.4,
+     862.2
+    ],
+    [
+     346.4,
+     1092.4
+    ]
+   ]
+  },
+  "bordes/escena-16.jpg": {
+   "sha256": "496f484ac4fd8103c7511f61fff659fe8e8fabe2e61de3bf0a4088a79e229486",
+   "formato": "id1",
+   "ancho": 1600,
+   "alto": 1200,
+   "confianza": "alta",
+   "nota": 0.96,
+   "origen": "bordes0 +1",
+   "esquinas": [
+    [
+     406.6,
+     361.2
+    ],
+    [
+     1205.5,
+     556.8
+    ],
+    [
+     1082.2,
+     1054.7
+    ],
+    [
+     313.3,
+     858
+    ]
+   ]
+  },
+  "bordes/escena-17.jpg": {
+   "sha256": "938bd85c635aaddbbbffee6aa36f6e45883581c07f11ec2dc048ca1868b9ba7e",
+   "formato": "id1",
+   "ancho": 1200,
+   "alto": 1600,
+   "confianza": "media",
+   "nota": 0.69,
+   "origen": "bordes0 +1",
+   "esquinas": [
+    [
+     562.4,
+     392.3
+    ],
+    [
+     923.2,
+     624.4
+    ],
+    [
+     652.5,
+     1193.5
+    ],
+    [
+     254.1,
+     1044.7
+    ]
+   ]
+  },
+  "bordes/escena-18.jpg": {
+   "sha256": "fb61dfac8630a3cf368a679f980432f6e083c40858adad9fd91a61dcb16881f4",
+   "formato": "id1",
+   "ancho": 1600,
+   "alto": 1200,
+   "confianza": "baja",
+   "nota": 0.7,
+   "origen": "zonas-inv0",
+   "esquinas": [
+    [
+     571.8,
+     199.3
+    ],
+    [
+     1460.5,
+     514.4
+    ],
+    [
+     1232.8,
+     1013
+    ],
+    [
+     393,
+     710.8
+    ]
+   ]
+  },
+  "bordes/escena-19.jpg": {
+   "sha256": "44e97ced96e58d01eed65395aad87aad22c8d2b390bed8ca6cdd2322d4cb1da0",
+   "formato": "id1",
+   "ancho": 1200,
+   "alto": 1600,
+   "confianza": "media",
+   "nota": 0.94,
+   "origen": "bordes1",
+   "esquinas": [
+    [
+     187.2,
+     707.5
+    ],
+    [
+     843.3,
+     494.9
+    ],
+    [
+     1015.1,
+     892.7
+    ],
+    [
+     333.8,
+     1137.6
+    ]
+   ]
+  },
+  "bordes/escena-20.jpg": {
+   "sha256": "c8d65262e593ec8db6b8037b2adb43897a90abc6a340692520edcd770dd9e814",
+   "formato": "id1",
+   "ancho": 1600,
+   "alto": 1200,
+   "confianza": "baja",
+   "nota": 0.67,
+   "origen": "lineas",
+   "esquinas": [
+    [
+     145.1,
+     203.8
+    ],
+    [
+     505.9,
+     203.7
+    ],
+    [
+     556.1,
+     680.8
+    ],
+    [
+     198.9,
+     719
+    ]
+   ]
+  },
+  "bordes/escena-21.jpg": {
+   "sha256": "bcb953be762f9ea6bc75ee3756e1cedcf221990e75bac068fe0ea6ecf9723de6",
+   "formato": "id1",
+   "ancho": 1600,
+   "alto": 1200,
+   "confianza": "baja",
+   "nota": 0.59,
+   "origen": "bordes3-rect",
+   "esquinas": [
+    [
+     86,
+     524
+    ],
+    [
+     1179.6,
+     656.6
+    ],
+    [
+     1127.8,
+     915.4
+    ],
+    [
+     42,
+     775.5
+    ]
+   ]
+  },
+  "bordes/escena-22.jpg": {
+   "sha256": "69a61b2d818057d1c0447d1e251339857aa3490140634fe629cba76098d7c649",
+   "formato": "id1",
+   "ancho": 1600,
+   "alto": 1200,
+   "confianza": "alta",
+   "nota": 0.99,
+   "origen": "lineas +2",
+   "esquinas": [
+    [
+     499,
+     138
+    ],
+    [
+     1347.1,
+     527
+    ],
+    [
+     1084.4,
+     1037.4
+    ],
+    [
+     216.8,
+     676.4
+    ]
+   ]
+  },
+  "bordes/escena-23.jpg": {
+   "sha256": "e4b9fc56ddcf1d2d91a4a8ef6212a23b5653b423cbf51e4e8354a6c8bb1cfa01",
+   "formato": "id1",
+   "ancho": 1600,
+   "alto": 1200,
+   "confianza": "alta",
+   "nota": 1,
+   "origen": "lineas +2",
+   "esquinas": [
+    [
+     156.1,
+     422.9
+    ],
+    [
+     1285.7,
+     245.9
+    ],
+    [
+     1416.6,
+     928.6
+    ],
+    [
+     274.8,
+     1175.8
+    ]
+   ]
+  },
+  "bordes/escena-24.jpg": {
+   "sha256": "6fdb7aee05712b81d440358c58ee462dc2d59570881b1c909c19f2b95a47455b",
+   "formato": "id1",
+   "ancho": 1200,
+   "alto": 1600,
+   "confianza": "baja",
+   "nota": 0.74,
+   "origen": "bordes0-rect",
+   "esquinas": [
+    [
+     385.9,
+     505
+    ],
+    [
+     991.4,
+     727.3
+    ],
+    [
+     833.2,
+     1121.7
+    ],
+    [
+     247.8,
+     864.3
+    ]
+   ]
+  },
+  "dni-facil-anverso.jpg": {
+   "sha256": "6d3984f530f17c9e3489acb3802bffd93292111ffbaf194d86a468736909462c",
+   "formato": "id1",
+   "ancho": 1600,
+   "alto": 1200,
+   "confianza": "alta",
+   "nota": 1,
+   "origen": "bordes3-rect +1",
+   "esquinas": [
+    [
+     261.5,
+     231.8
+    ],
+    [
+     1331.5,
+     275.2
+    ],
+    [
+     1297.5,
+     947.6
+    ],
+    [
+     227.7,
+     901.4
+    ]
+   ]
+  },
+  "dni-facil-reverso.jpg": {
+   "sha256": "ab9e7a63a13a974f0e0ea38fe26f70103dfeb074f945b5b364667016c336e0bc",
+   "formato": "id1",
+   "ancho": 1600,
+   "alto": 1200,
+   "confianza": "alta",
+   "nota": 0.96,
+   "origen": "zonas0-rect +1",
+   "esquinas": [
+    [
+     249.5,
+     261.4
+    ],
+    [
+     1317.5,
+     229.6
+    ],
+    [
+     1351.4,
+     909.3
+    ],
+    [
+     281.6,
+     943.5
+    ]
+   ]
+  },
+  "dni-dificil.jpg": {
+   "sha256": "e14958fbc4f3df7396035212c0f31c537e9b4d4885b08362d25c1b654834f7a4",
+   "formato": "id1",
+   "ancho": 1600,
+   "alto": 1200,
+   "confianza": "media",
+   "nota": 0.86,
+   "origen": "bordes1-rect",
+   "esquinas": [
+    [
+     433.8,
+     135.9
+    ],
+    [
+     1387.4,
+     470.7
+    ],
+    [
+     1143.6,
+     1067.4
+    ],
+    [
+     220.6,
+     743.3
+    ]
+   ]
+  },
+  "pasaporte-prueba.jpg": {
+   "sha256": "c220f929f7cdfe7fd39d27003a27b1b817fc3d03411d6ed372dd02eb390ebc64",
+   "formato": "id3",
+   "ancho": 1600,
+   "alto": 1200,
+   "confianza": "alta",
+   "nota": 0.97,
+   "origen": "bordes0 +1",
+   "esquinas": [
+    [
+     169.4,
+     229.3
+    ],
+    [
+     1439.5,
+     205.4
+    ],
+    [
+     1469.4,
+     1099.4
+    ],
+    [
+     149.7,
+     1079.5
+    ]
+   ]
+  },
+  "_tarjeta-anverso-plana.png": {
+   "sha256": "027572a493f13378cd26f8be494512b2bab1876e0ea4a095ec5bd367a6a061aa",
+   "formato": "id1",
+   "ancho": 1011,
+   "alto": 638,
+   "confianza": "media",
+   "nota": 0.81,
+   "origen": "lineas",
+   "esquinas": [
+    [
+     35.4,
+     52.9
+    ],
+    [
+     286.2,
+     52.4
+    ],
+    [
+     285.5,
+     418.8
+    ],
+    [
+     35.1,
+     497.2
+    ]
+   ]
+  }
+ },
+ "dosCaras": {
+  "bordes/dos-caras-01.jpg": {
+   "sha256": "c9a549f52cc933a97597568e21832ef97decf134aa799b7efd9b9e5d06b95fca",
+   "tarjetas": [
+    {
+     "confianza": "media",
+     "nota": 0.92,
+     "esquinas": [
+      [
+       490.6,
+       278.1
+      ],
+      [
+       1157.5,
+       251.8
+      ],
+      [
+       1163.9,
+       681.6
+      ],
+      [
+       494.5,
+       677.1
+      ]
+     ]
+    },
+    {
+     "confianza": "media",
+     "nota": 0.87,
+     "esquinas": [
+      [
+       486.1,
+       865.2
+      ],
+      [
+       1161.4,
+       834.7
+      ],
+      [
+       1163.8,
+       1260.7
+      ],
+      [
+       488.6,
+       1263.4
+      ]
+     ]
+    }
+   ]
+  },
+  "bordes/dos-caras-02.jpg": {
+   "sha256": "08daf41c54e98855b2c3043a16b110a077f6ab538dc106e2fa2441bd7a469727",
+   "tarjetas": [
+    {
+     "confianza": "media",
+     "nota": 0.92,
+     "esquinas": [
+      [
+       110.9,
+       137.3
+      ],
+      [
+       773.5,
+       119.1
+      ],
+      [
+       788.7,
+       533.1
+      ],
+      [
+       118.2,
+       544.5
+      ]
+     ]
+    },
+    {
+     "confianza": "media",
+     "nota": 0.92,
+     "esquinas": [
+      [
+       883.9,
+       109.8
+      ],
+      [
+       1548.1,
+       133.8
+      ],
+      [
+       1537.2,
+       547.7
+      ],
+      [
+       862.1,
+       530
+      ]
+     ]
+    }
+   ]
+  },
+  "bordes/dos-caras-03.jpg": {
+   "sha256": "927f10cce731533070dca8dc8a834ce8395e58c94cb5718d6de30c25791e69ad",
+   "tarjetas": [
+    {
+     "confianza": "alta",
+     "nota": 0.92,
+     "esquinas": [
+      [
+       368.3,
+       167.2
+      ],
+      [
+       1041.3,
+       202.2
+      ],
+      [
+       1019,
+       627
+      ],
+      [
+       346.1,
+       591.2
+      ]
+     ]
+    },
+    {
+     "confianza": "alta",
+     "nota": 0.92,
+     "esquinas": [
+      [
+       557.8,
+       792.7
+      ],
+      [
+       1229.9,
+       745.9
+      ],
+      [
+       1259.7,
+       1170.4
+      ],
+      [
+       587.1,
+       1216.7
+      ]
+     ]
+    }
+   ]
+  },
+  "bordes/dos-caras-04.jpg": {
+   "sha256": "547b603a990a62b77d675415c9e2e9e7d3278d70db50b1b61d6ef6ce8e1e078e",
+   "tarjetas": [
+    {
+     "confianza": "alta",
+     "nota": 0.94,
+     "esquinas": [
+      [
+       56.1,
+       438.5
+      ],
+      [
+       715.5,
+       367.4
+      ],
+      [
+       786.5,
+       782.5
+      ],
+      [
+       117.2,
+       856.1
+      ]
+     ]
+    },
+    {
+     "confianza": "alta",
+     "nota": 0.94,
+     "esquinas": [
+      [
+       893.3,
+       359.6
+      ],
+      [
+       1544.8,
+       413.7
+      ],
+      [
+       1491.1,
+       827.2
+      ],
+      [
+       834.6,
+       764.5
+      ]
+     ]
+    }
+   ]
+  },
+  "bordes/dos-caras-05.jpg": {
+   "sha256": "8df8bab2eb1a49ce625a71ccff630bf298f9bc3b9d3fb63331d03f06149773e0",
+   "tarjetas": [
+    {
+     "confianza": "alta",
+     "nota": 0.96,
+     "esquinas": [
+      [
+       230,
+       198.8
+      ],
+      [
+       995.3,
+       257.1
+      ],
+      [
+       950.9,
+       726.8
+      ],
+      [
+       195.9,
+       686.2
+      ]
+     ]
+    },
+    {
+     "confianza": "alta",
+     "nota": 0.96,
+     "esquinas": [
+      [
+       212.3,
+       907.6
+      ],
+      [
+       992.3,
+       858.9
+      ],
+      [
+       1014.4,
+       1356.3
+      ],
+      [
+       245.2,
+       1386.6
+      ]
+     ]
+    }
+   ]
+  },
+  "bordes/dos-caras-06.jpg": {
+   "sha256": "df8e500b050f880f2d0d031ec669fa359713ea9f145abcc64014f24c2922a472",
+   "tarjetas": [
+    {
+     "confianza": "alta",
+     "nota": 0.94,
+     "esquinas": [
+      [
+       505.3,
+       82.1
+      ],
+      [
+       1092.3,
+       206.8
+      ],
+      [
+       1013.6,
+       576.9
+      ],
+      [
+       426.7,
+       452
+      ]
+     ]
+    },
+    {
+     "confianza": "alta",
+     "nota": 0.94,
+     "esquinas": [
+      [
+       565.6,
+       633.3
+      ],
+      [
+       1172.5,
+       713.7
+      ],
+      [
+       1101.1,
+       1088.3
+      ],
+      [
+       513.8,
+       999.4
+      ]
+     ]
+    }
+   ]
+  },
+  "bordes/dos-caras-07.jpg": {
+   "sha256": "97cc6466a89553d8efa3e593f12a49c8e14edc8b70941ed2335fc84f40f0c5d9",
+   "tarjetas": [
+    {
+     "confianza": "baja",
+     "nota": 0.56,
+     "esquinas": [
+      [
+       373,
+       272
+      ],
+      [
+       671.2,
+       105.2
+      ],
+      [
+       980.2,
+       641.3
+      ],
+      [
+       667,
+       799.5
+      ]
+     ]
+    }
+   ]
+  }
+ }
+}

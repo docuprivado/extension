@@ -1,0 +1,14 @@
+* text=auto eol=lf
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.heic binary
+*.webp binary
+*.gif binary
+*.docx binary
+*.bin binary
+*.gz binary
+*.wasm binary
+*.traineddata binary
+*.ico binary
