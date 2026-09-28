@@ -299,7 +299,11 @@ test("rutas cortas: ninguna respuesta lleva la carpeta del usuario ni la ruta co
   // Todas las respuestas de este archivo, tal como le llegan a Claude (texto y datos).
   const respuestas = s.mensajes.filter((m) => m.id && (m.result || m.error) && !(m.result && m.result.protocolVersion));
   assert.ok(respuestas.length > 20, "pocas respuestas: " + respuestas.length);
-  const prohibidos = [os.homedir(), base, docs].map((p) => p.toLowerCase());
+  // Prohibidas: la carpeta del usuario (lleva su nombre) y la ruta completa de la carpeta
+  // autorizada. La carpeta de más arriba sí puede salir para decir dónde está («(en D:\)»),
+  // salvo dentro de la carpeta del usuario, que ya cubre la primera: en Windows la carpeta
+  // temporal está dentro; en macOS, fuera (/private/var/folders/…, sin el nombre de nadie).
+  const prohibidos = [os.homedir(), docs].map((p) => p.toLowerCase());
   for (const m of respuestas) {
     const j = JSON.stringify(m.result || m.error).toLowerCase().replace(/\\\\/g, "\\");
     for (const p of prohibidos) assert.ok(!j.includes(p) && !j.includes(p.replace(/\\/g, "/")), "una respuesta lleva «" + p + "»: " + j.slice(0, 300));
