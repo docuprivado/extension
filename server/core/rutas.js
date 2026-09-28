@@ -81,6 +81,17 @@ function comprobarNombre(ruta) {
   }
 }
 
+// En macOS la barra invertida no separa carpetas, pero Claude puede escribirla por costumbre de
+// Windows («Alquiler\nomina.pdf», «..\..»): se toma como separador. Y una ruta de Windows con
+// unidad o de red («C:\Windows», «\\servidor\…») no está en este ordenador: fuera. Sin esto, en
+// macOS «C:\Windows» era un nombre de carpeta y se creaba dentro de la autorizada (lo vieron
+// las pruebas de GitHub en macOS, 29/09/2026). En Windows no cambia nada.
+function aEsteSistema(texto, mensajeFuera) {
+  if (WIN) return texto;
+  if (/^(?:[A-Za-z]:(?:[\\/]|$)|\\\\)/.test(texto)) throw new ErrorRuta(mensajeFuera, "fuera");
+  return texto.replace(/\\/g, "/");
+}
+
 // Quita comillas y espacios que a veces rodean una ruta copiada.
 function limpiar(entrada) {
   return String(entrada).trim().replace(/^["'«“]+|["'»”]+$/g, "").trim();
@@ -148,9 +159,10 @@ export function carpetaQueContiene(ctx, real) {
 export function resolver(ctx, entrada, opciones = {}) {
   const tipo = opciones.tipo || "archivo";
   if (!ctx.permitidas.length) throw new ErrorRuta(MENSAJES.sinCarpetas, "sinCarpetas");
-  const texto = limpiar(entrada == null ? "" : entrada);
+  let texto = limpiar(entrada == null ? "" : entrada);
   comprobarNombre(texto);
   const fuera = tipo === "carpeta" ? MENSAJES.carpetaFuera : MENSAJES.fuera;
+  texto = aEsteSistema(texto, fuera);
 
   let candidatos = [];
   if (path.isAbsolute(texto)) {
@@ -410,7 +422,7 @@ export function carpetaPedida(ctx, entrada) {
   } catch (err) {
     if (!(err instanceof ErrorRuta) || err.codigo !== "noExiste") throw err;
   }
-  const texto = limpiar(entrada);
+  const texto = aEsteSistema(limpiar(entrada), MENSAJES.carpetaFuera);
   comprobarNombre(texto);
   let destino = null;
   if (path.isAbsolute(texto)) {

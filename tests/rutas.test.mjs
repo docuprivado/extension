@@ -9,7 +9,7 @@ import assert from "node:assert/strict";
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
-import { prepararCarpetas, resolver, estaDentro, escribirSinSobrescribir, carpetaDeSalida, nombreLibre, ErrorRuta, MENSAJES } from "../server/core/rutas.js";
+import { prepararCarpetas, resolver, estaDentro, escribirSinSobrescribir, carpetaDeSalida, carpetaPedida, nombreLibre, ErrorRuta, MENSAJES } from "../server/core/rutas.js";
 
 const WIN = process.platform === "win32";
 // La carpeta temporal, por su nombre real, como trabaja la extensión: en macOS está detrás de
@@ -126,6 +126,18 @@ test("rutas especiales de Windows, flujos alternativos y nombres reservados: no 
 
 test("C:\\Windows\\win.ini (prueba negativa del prompt): se rechaza", { skip: !WIN }, () => {
   assert.throws(() => resolver(ctx, "C:\\Windows\\win.ini"), esFuera);
+});
+
+// En cualquier sistema. En macOS «C:\Windows» era un nombre y la extensión creaba una carpeta
+// con ese nombre dentro de la autorizada (lo vieron las pruebas de GitHub, hito 8).
+test("rutas de Windows en cualquier sistema: «C:\\Windows», la ruta de red y «..\\..» están fuera, y no se crea nada", () => {
+  const una = prepararCarpetas([permitida]);
+  const antes = fs.readdirSync(permitida).sort();
+  for (const r of ["C:\\Windows\\win.ini", "\\\\servidor\\compartida\\a.pdf", "..\\fuera\\secreto.pdf"]) assert.throws(() => resolver(una, r), esFuera, r);
+  for (const r of ["C:\\Windows", "\\\\servidor\\compartida", "..\\..", "..\\fuera"]) assert.throws(() => carpetaPedida(una, r), esFuera, r);
+  assert.deepEqual(fs.readdirSync(permitida).sort(), antes, "no se ha creado ninguna carpeta");
+  // La barra invertida separa carpetas también en macOS, como la escribe Claude por costumbre.
+  assert.equal(path.basename(resolver(una, "Nóminas 2026\\nómina septiembre.pdf").ruta), "nómina septiembre.pdf");
 });
 
 test("unión de carpetas dentro que apunta fuera: se rechaza", { skip: !hayUnion && "no se pudo crear la unión" }, () => {

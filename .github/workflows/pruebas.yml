@@ -44,25 +44,25 @@ jobs:
       - name: Quitar la parte opcional de pdf.js
         run: rm -rf node_modules/@napi-rs/canvas*
 
-      # La salida también se guarda en un archivo para el paso siguiente (con «pipefail», que
-      # GitHub pone en bash, el paso falla si falla alguna prueba).
+      # Las salidas también se guardan en archivos para el paso «Motivo de lo que falla» (con
+      # «pipefail», que GitHub pone en bash, el paso falla si falla lo que se prueba).
       - name: Pruebas automáticas
         run: node --test "tests/**/*.test.mjs" 2>&1 | tee pruebas.log
-
-      # Si fallan, el motivo de cada una como aviso de la ejecución: el registro completo solo
-      # se ve con la sesión iniciada en GitHub; los avisos, sin ella.
-      - name: Motivo de las pruebas que fallan
-        if: failure()
-        run: node scripts/avisos-de-fallos.mjs pruebas.log
 
       - name: Prueba sin red
         run: node scripts/comprobar-sin-red.mjs
 
       - name: MCP Inspector
-        run: node scripts/probar-inspector.mjs
+        run: node scripts/probar-inspector.mjs 2>&1 | tee inspector.log
 
       - name: Ensayo de las 12 frases y de las pruebas negativas
-        run: node scripts/ensayo-frases.mjs
+        run: node scripts/ensayo-frases.mjs 2>&1 | tee ensayo.log
+
+      # Si algo falla, el motivo como avisos de la ejecución: el registro completo solo se ve
+      # con la sesión iniciada en GitHub; los avisos, sin ella.
+      - name: Motivo de lo que falla
+        if: failure()
+        run: node scripts/avisos-de-fallos.mjs pruebas.log inspector.log ensayo.log
 
       - name: Guardar el resultado del ensayo
         if: always()
